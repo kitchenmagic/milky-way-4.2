@@ -15,7 +15,8 @@
 	@extend h3;
 	color: $white;
     background-color: $secondary-color;
-    border: solid 1px darken($secondary-color, 20);
+    border: solid 1px darken($secondary-color, 10);
+    border-bottom: none;
     @include border-radius($global-radius $global-radius 0 0);
     margin-bottom: 0;
     padding: .5em;

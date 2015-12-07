@@ -319,8 +319,12 @@ div[class*="gsc-adBlock"]{
 			display: block;
 		}
 		.km-album-list-thumb{
-			min-height: 210px;
+			@media #{$medium-up}{
+				min-height: 210px;
+			}
+			min-height: 285px;
 			background-size: cover;
+			width:100%;
 		}
 	}
 }

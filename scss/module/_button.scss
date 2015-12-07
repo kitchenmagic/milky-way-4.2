@@ -9,7 +9,7 @@
 .button,
 button,
 input[type="button"]{
-	@include button($button-sml, $primary-color, true);
+	@include button($button-med, $primary-color, true);
 }
 
 .widget-type-google-search{
