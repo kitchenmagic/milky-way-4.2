@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+
+<kitchen10>
+	<items>
+			<item>
+				<image src="asset/kitchen10/kitchen1.jpg" />
+				<thumbnail src="asset/kitchen10/thumbnail1.jpg" />
+				<description> <![CDATA[<title>Maples of Winter Island</title>This light and airy kitchen features Hard Maple cabinets with a Natural glaze in Classic Raised Panel style #10. The durable and maintenance-free countertop is Corian Solid Surface in Tumbleweed with an Eased edge. The island brings contrast to the room Winter White cabinets with a Walnut Glaze in Stonebridge and a Zodiaq Quartz countertop in Smokey Topaz.]]> </description>
+			</item>
+			
+			<item>
+				<image src="asset/kitchen10/kitchen2.jpg" />
+				<thumbnail src="asset/kitchen10/thumbnail2.jpg" />
+				<description> <![CDATA[<title>Maples of Winter Island</title>This light and airy kitchen features Hard Maple cabinets with a Natural glaze in Classic Raised Panel style #10. The durable and maintenance-free countertop is Corian Solid Surface in Tumbleweed with an Eased edge. The island brings contrast to the room Winter White cabinets with a Walnut Glaze in Stonebridge and a Zodiaq Quartz countertop in Smokey Topaz.]]> </description>
+			</item>
+			
+			<item>
+				<image src="asset/kitchen10/kitchen3.jpg" />
+				<thumbnail src="asset/kitchen10/thumbnail3.jpg" />
+				<description> <![CDATA[<title>Maples of Winter Island</title>This light and airy kitchen features Hard Maple cabinets with a Natural glaze in Classic Raised Panel style #10. The durable and maintenance-free countertop is Corian Solid Surface in Tumbleweed with an Eased edge. The island brings contrast to the room Winter White cabinets with a Walnut Glaze in Stonebridge and a Zodiaq Quartz countertop in Smokey Topaz.]]> </description>
+			</item>
+			
+			<item>
+				<image src="asset/kitchen10/kitchen4.jpg" />
+				<thumbnail src="asset/kitchen10/thumbnail4.jpg" />
+				<description> <![CDATA[<title>Maples of Winter Island</title>This light and airy kitchen features Hard Maple cabinets with a Natural glaze in Classic Raised Panel style #10. The durable and maintenance-free countertop is Corian Solid Surface in Tumbleweed with an Eased edge. The island brings contrast to the room Winter White cabinets with a Walnut Glaze in Stonebridge and a Zodiaq Quartz countertop in Smokey Topaz.]]> </description>
+			</item>			
+			
+	</items>
+</kitchen10>

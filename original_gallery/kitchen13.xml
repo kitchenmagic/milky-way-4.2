@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+
+<kitchen13>
+	<items>
+			<item>
+				<image src="asset/kitchen13/kitchen1.jpg" />
+				<thumbnail src="asset/kitchen13/thumbnail1.jpg" />
+				<description> <![CDATA[<title>The Maple White Galaxy</title>The Maple cabinets in Alpine White with Classic Raised Panel style #10 give this kitchen a clean look. The Zodiaq Quartz countertops in Mystic Black with a Roundover edge bring dramatic contrast to the space.]]> </description>
+			</item>
+			
+			<item>
+				<image src="asset/kitchen13/kitchen2.jpg" />
+				<thumbnail src="asset/kitchen13/thumbnail2.jpg" />
+				<description> <![CDATA[<title>The Maple White Galaxy</title>The Maple cabinets in Alpine White with Classic Raised Panel style #10 give this kitchen a clean look. The Zodiaq Quartz countertops in Mystic Black with a Roundover edge bring dramatic contrast to the space.]]> </description>
+			</item>
+			
+			<item>
+				<image src="asset/kitchen13/kitchen3.jpg" />
+				<thumbnail src="asset/kitchen13/thumbnail3.jpg" />
+				<description> <![CDATA[<title>The Maple White Galaxy</title>The Maple cabinets in Alpine White with Classic Raised Panel style #10 give this kitchen a clean look. The Zodiaq Quartz countertops in Mystic Black with a Roundover edge bring dramatic contrast to the space.]]> </description>
+			</item>
+			
+			<item>
+				<image src="asset/kitchen13/kitchen4.jpg" />
+				<thumbnail src="asset/kitchen13/thumbnail4.jpg" />
+				<description> <![CDATA[<title>The Maple White Galaxy</title>The Maple cabinets in Alpine White with Classic Raised Panel style #10 give this kitchen a clean look. The Zodiaq Quartz countertops in Mystic Black with a Roundover edge bring dramatic contrast to the space.]]> </description>
+			</item>			
+			<item>
+				<image src="asset/kitchen13/kitchen5.jpg" />
+				<thumbnail src="asset/kitchen13/thumbnail3.jpg" />
+				<description> <![CDATA[<title>The Maple White Galaxy</title>The Maple cabinets in Alpine White with Classic Raised Panel style #10 give this kitchen a clean look. The Zodiaq Quartz countertops in Mystic Black with a Roundover edge bring dramatic contrast to the space.]]> </description>
+			</item>		
+			<item>
+				<image src="asset/kitchen13/kitchen6.jpg" />
+				<thumbnail src="asset/kitchen13/thumbnail4.jpg" />
+				<description> <![CDATA[<title>The Maple White Galaxy</title>The Maple cabinets in Alpine White with Classic Raised Panel style #10 give this kitchen a clean look. The Zodiaq Quartz countertops in Mystic Black with a Roundover edge bring dramatic contrast to the space.]]> </description>
+			</item>			
+			<item>
+				<image src="asset/kitchen13/kitchen7.jpg" />
+				<thumbnail src="asset/kitchen13/thumbnail3.jpg" />
+				<description> <![CDATA[<title>The Maple White Galaxy</title>The Maple cabinets in Alpine White with Classic Raised Panel style #10 give this kitchen a clean look. The Zodiaq Quartz countertops in Mystic Black with a Roundover edge bring dramatic contrast to the space.]]> </description>
+			</item>			
+					
+	</items>
+</kitchen13>

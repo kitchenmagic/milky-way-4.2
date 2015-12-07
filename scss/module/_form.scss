@@ -1,0 +1,180 @@
+/* 
+ *----------------------------------------------------------------------------------------------------------------------------
+ * MODULE > FORM
+ *----------------------------------------------------------------------------------------------------------------------------
+ */
+
+#{text-inputs(all, 'input')} {
+	@include border-radius($input-border-radius);
+}
+
+
+//All Forms (.page is used to overpower hubspot selectors)
+	
+.form-title{
+	@extend h3;
+	color: $white;
+    background-color: $secondary-color;
+    border: solid 1px darken($secondary-color, 20);
+    @include border-radius($global-radius $global-radius 0 0);
+    margin-bottom: 0;
+    padding: .5em;
+    line-height: 1;
+    text-align: center;
+}
+
+.body-container-wrapper .hs-form,
+.body-container-wrapper form {
+	background-color: $smoke;
+	padding: 1em 1em .5em 1em;
+	max-width: 500px;
+	border: #EAEAEA solid 1px;
+    border-top: none;
+    @include border-radius( 0 0 $global-radius $global-radius);
+
+	button,
+	.button,
+	.hs-button,
+	.km-button{
+		width:100%;
+	}
+
+	input[type="submit"] {
+		@include button($button-med, $info-color, true);
+	}
+	
+	fieldset{
+
+		.hs-input,
+		.input{
+		
+			&.error{
+				border: solid 1px $alert-color;
+				margin: 0 0 1rem 0;
+			}
+			
+			input {
+				height: auto;
+				padding: $button-sml 1em;
+			}
+
+			select{
+				@include border-radius($global-radius);
+				background-color:$white;
+			}
+		}
+	
+
+		input[type=checkbox],
+		input[type="radio"]{
+		  /* Double-sized Checkboxes */
+		  -ms-transform: scale(2); /* IE */
+		  -moz-transform: scale(2); /* FF */
+		  -webkit-transform: scale(2); /* Safari and Chrome */
+		  -o-transform: scale(2); /* Opera */
+		  width: auto!important;
+		}
+		
+		input[type="checkbox"],
+		input[type="radio"],
+		input[type="checkbox"] + span,
+		input[type="radio"] + span {
+		    margin-left: 10px;
+		}
+		
+	
+		@media #{$medium-up}{
+			input[type=checkbox],
+			input[type="radio"]{
+				/* Double-sized Checkboxes */
+				-ms-transform: scale(1); /* IE */
+				-moz-transform: scale(1); /* FF */
+				-webkit-transform: scale(1); /* Safari and Chrome */
+				-o-transform: scale(1); /* Opera */
+				margin-left: 0;
+			}
+		}
+
+
+		&.form-columns-1{
+			.input {
+				margin-right: 0;
+			}
+
+
+		 	input.hs-input,
+		 	select {
+				width: 100%;
+			}
+		}
+	
+		&.form-columns-2 {
+			
+			.hs-form-field{
+				.input{
+					margin-right:0;	
+				}				
+
+				@media #{$medium-up}{
+					&:first-of-type .input{
+						margin-right: 8px;
+					}
+				}
+
+				.hs-input{
+					width: 100%;	
+				}
+			}
+		}
+
+
+
+		ul {
+		    list-style: none;
+		    margin: 0;
+
+			input[type="checkbox"],
+			input[type="radio"]{
+				margin-right: 8px;
+			}
+		}
+
+
+		.hs-form-required{
+			display:none;
+		}
+	}
+
+
+	.hs-error-msgs {
+		display:none!important;
+	}
+
+}
+
+
+// Placeholder Text
+::-webkit-input-placeholder{ color: $placeholder-font-color; }
+:-moz-placeholder{ color: $placeholder-font-color; }
+::-moz-placeholder{ color: $placeholder-font-color; }
+:-ms-input-placeholder{ color: $placeholder-font-color; }
+
+
+
+//Sidebar Forms
+.km-sidebar{
+	button,
+		.button,
+		.hs-button,
+		.km-button{
+			width:100%;
+	}
+
+	form{
+		padding: .5em .5em 0 .5em;
+	}
+}
+
+
+
+

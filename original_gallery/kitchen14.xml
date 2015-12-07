@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+
+<kitchen14>
+	<items>
+			<item>
+				<image src="asset/kitchen14/kitchen1.jpg" />
+				<thumbnail src="asset/kitchen14/thumbnail1.jpg" />
+				<description> <![CDATA[<title>Warm Winter in Stonebridge</title>This kitchen uses warm and cool tones bring a unique style to the space, featuring Winter White cabinets with a Walnut Glaze in Stonebridge style and Granite certified by Kitchen Magic countertops in Juparana Crema Bordeaux with a Roundover edge.]]> </description>
+			</item>
+			
+			<item>
+				<image src="asset/kitchen14/kitchen2.jpg" />
+				<thumbnail src="asset/kitchen14/thumbnail2.jpg" />
+				<description> <![CDATA[<title>Warm Winter in Stonebridge</title>This kitchen uses warm and cool tones bring a unique style to the space, featuring Winter White cabinets with a Walnut Glaze in Stonebridge style and Granite certified by Kitchen Magic countertops in Juparana Crema Bordeaux with a Roundover edge.]]> </description>
+			</item>
+	
+			<item>
+				<image src="asset/kitchen14/kitchen3.jpg" />
+				<thumbnail src="asset/kitchen14/thumbnail3.jpg" />
+				<description> <![CDATA[<title>Warm Winter in Stonebridge</title>This kitchen uses warm and cool tones bring a unique style to the space, featuring Winter White cabinets with a Walnut Glaze in Stonebridge style and Granite certified by Kitchen Magic countertops in Juparana Crema Bordeaux with a Roundover edge.]]> </description>
+			</item>
+			<item>
+				<image src="asset/kitchen14/kitchen4.jpg" />
+				<thumbnail src="asset/kitchen14/thumbnail4.jpg" />
+				<description> <![CDATA[<title>Warm Winter in Stonebridge</title>This kitchen uses warm and cool tones bring a unique style to the space, featuring Winter White cabinets with a Walnut Glaze in Stonebridge style and Granite certified by Kitchen Magic countertops in Juparana Crema Bordeaux with a Roundover edge.]]> </description>
+			</item>
+										
+	</items>
+</kitchen14>

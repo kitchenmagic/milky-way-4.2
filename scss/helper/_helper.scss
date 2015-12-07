@@ -1,0 +1,161 @@
+/*
+ *-------------------------------------------------------
+ * LAYOUT
+ *-------------------------------------------------------
+ */
+.km-row {
+	@include center;
+	max-width: $row-width;
+	width: 100%;
+	float:none!important;
+}
+
+.km-row-narrow {
+	@extend .km-row;
+	max-width: $row-width-narrow;
+}
+
+.km-row-wide {
+	@extend .km-row;
+	max-width: $row-width-wide;
+}
+
+.km-row-full {
+	@extend .km-row;
+	max-width: 100%!important;
+}
+
+.km-row,
+.km-row-wide,
+.km-row-full {
+	.row-fluid{
+		@extend .km-row;
+	}
+}
+
+
+.km-wrapper{
+	@extend .km-row;
+}
+
+.km-wrapper-inner{
+	@extend .km-row;
+}
+
+.km-width-full{
+	width:$width-full;
+	max-width:$width-full;
+}
+
+
+
+
+.align-center {
+	float: none!important;
+	display:block!important;
+	margin-left: auto!important;
+	margin-right: auto!important;
+}
+
+.km-bg-pos-top{
+	background-position: top!important;
+}
+
+.km-bg-pos-center{
+	background-position: center!important;
+}
+
+.km-bg-pos-bottom{
+	background-position: bottom!important;
+}
+
+
+
+
+
+
+/*
+ *-------------------------------------------------------
+ * FORM
+ *-------------------------------------------------------
+ */
+
+.km-form-input-large {
+	input,
+	button,
+	.km-button {
+		padding: $button-med;
+		height:auto;
+	}
+}
+
+.km-form-hide-title .form-title,
+.km-form-hide-label label {
+	display:none!important;
+}
+
+#blackout {
+    z-index: 100000;
+    background-color: rgba(0,0,0,.5);
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    display: none;
+}
+
+
+.km-button-inline {
+	position: relative;
+	display: inline-block;
+	width: 100%;
+	float: right;
+
+	.hs-input{
+		position: absolute;
+		top: 0;
+		left: 0;
+		padding-right: 40%;
+		right: 0;
+	}
+
+	.hs-button,
+	.km-button {
+		position: absolute;
+		margin: 0;
+		top: 0;
+		right: 0;
+		border-top-left-radius: 1px;
+		border-bottom-left-radius: 1px;
+	}
+}
+
+
+
+/*
+ *-------------------------------------------------------
+ * COLOR
+ *-------------------------------------------------------
+ */
+
+
+@each $name, $value in $colors {
+	.km-bg-#{$name}{
+		background-color: $value;
+	}
+}
+
+/*
+ *-------------------------------------------------------
+ * Transform
+ *-------------------------------------------------------
+ */
+.km-flip {
+	-moz-transform: scaleX(-1);
+	-o-transform: scaleX(-1);
+	-webkit-transform: scaleX(-1);
+	transform: scaleX(-1);
+	filter: FlipH;
+	-ms-filter: "FlipH";
+}

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+
+<kitchen11>
+	<items>
+			<item>
+				<image src="asset/kitchen11/kitchen1.jpg" />
+				<thumbnail src="asset/kitchen11/thumbnail1.jpg" />
+				<description> <![CDATA[<title>Cordovan Cherry Greens</title>This kitchen bridges traditional and contemporary design with Cordovan Cherry cabinets in Classic Raised Panel style #10 and Granite certified by Kitchen Magic countertops in Tunis Green/Verde Peacock. The custom hutch features Granite countertops in Eucalyptus Green.]]> </description>
+			</item>
+			
+			<item>
+				<image src="asset/kitchen11/kitchen2.jpg" />
+				<thumbnail src="asset/kitchen11/thumbnail2.jpg" />
+				<description> <![CDATA[<title>Cordovan Cherry Greens</title>This kitchen bridges traditional and contemporary design with Cordovan Cherry cabinets in Classic Raised Panel style #10 and Granite certified by Kitchen Magic countertops in Tunis Green/Verde Peacock. The custom hutch features Granite countertops in Eucalyptus Green.]]> </description>
+			</item>
+			
+			<item>
+				<image src="asset/kitchen11/kitchen3.jpg" />
+				<thumbnail src="asset/kitchen11/thumbnail3.jpg" />
+				<description> <![CDATA[<title>Cordovan Cherry Greens</title>This kitchen bridges traditional and contemporary design with Cordovan Cherry cabinets in Classic Raised Panel style #10 and Granite certified by Kitchen Magic countertops in Tunis Green/Verde Peacock. The custom hutch features Granite countertops in Eucalyptus Green.]]> </description>
+			</item>
+			
+			<item>
+				<image src="asset/kitchen11/kitchen4.jpg" />
+				<thumbnail src="asset/kitchen11/thumbnail4.jpg" />
+				<description> <![CDATA[<title>Cordovan Cherry Greens</title>This kitchen bridges traditional and contemporary design with Cordovan Cherry cabinets in Classic Raised Panel style #10 and Granite certified by Kitchen Magic countertops in Tunis Green/Verde Peacock. The custom hutch features Granite countertops in Eucalyptus Green.]]> </description>
+			</item>			
+			<item>
+				<image src="asset/kitchen11/kitchen5.jpg" />
+				<thumbnail src="asset/kitchen11/thumbnail5.jpg" />
+				<description> <![CDATA[<title>Cordovan Cherry Greens</title>This kitchen bridges traditional and contemporary design with Cordovan Cherry cabinets in Classic Raised Panel style #10 and Granite certified by Kitchen Magic countertops in Tunis Green/Verde Peacock. The custom hutch features Granite countertops in Eucalyptus Green.]]> </description>
+			</item>
+			
+			<item>
+				<image src="asset/kitchen11/kitchen6.jpg" />
+				<thumbnail src="asset/kitchen11/thumbnail6.jpg" />
+				<description> <![CDATA[<title>Cordovan Cherry Greens</title>This kitchen bridges traditional and contemporary design with Cordovan Cherry cabinets in Classic Raised Panel style #10 and Granite certified by Kitchen Magic countertops in Tunis Green/Verde Peacock. The custom hutch features Granite countertops in Eucalyptus Green.]]> </description>
+			</item>				
+	</items>
+</kitchen11>

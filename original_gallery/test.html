@@ -1,0 +1,400 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <!-- Google Analytics Tracking Enhancer (non-https) -->
+    <script type="text/javascript" src="http://c687548.r48.cf2.rackcdn.com/gascript.js"></script>
+
+	<!-- Start of HubSpot Logging Code  -->
+	<script type="text/javascript" language="javascript">
+	var hs_portalid=126868; 
+	var hs_salog_version = "2.00";
+	var hs_ppa = "kitchenmagic.app11.hubspot.com";
+	document.write(unescape("%3Cscript src='" + document.location.protocol + "//" + hs_ppa + "/salog.js.aspx' type='text/javascript'%3E%3C/script%3E"));
+	</script>
+	<!-- End of HubSpot Logging Code -->
+	
+	<!--Pinterest-->	
+	<script type="text/javascript" src="//assets.pinterest.com/js/pinit.js"
+    data-pin-hover="true" data-pin-color="red" data-pin-height="28"></script>
+	<!--End Pinterest-->
+    
+	<title>
+	Remodeled Kitchens Gallery  |  Kitchen Magic, Inc. 
+</title>
+
+<meta http-equiv="X-UA-Compatible" content="IE=EmulateIE7" /><meta http-equiv="Content-type" content="text/html;charset=UTF-8" /> 
+    <!--[if lte IE 6]>
+        <style type="text/css" media="all">.t {margin-top:-22px;} img, div { behavior: url(/iepngfix.htc) }</style>
+    <![endif]-->
+<script src="/files/slider/swfobject.js" type="text/javascript"></script>
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
+<script src="js/jcarousellite.min.js"></script>
+<style type="text/css">
+body {
+	margin: 0;
+	padding: 0;
+}
+
+img {
+	border: none;
+}
+
+#gallery-container {
+	max-width: 650px;
+	overflow: hidden;
+	min-height: 645px;
+	position: relative;
+	margin: 0;
+	border-top: 1px solid #EEEBE6;
+	
+}
+#gallery-nav {
+	background-color: #EEEBE6;
+	width: 650px;
+	position: relative;
+	z-index: 99;
+	display: none;
+	padding-bottom: 2em;
+}
+
+#gallery-nav div.gallery {
+	float: left;
+	margin: 15px 0 0 15px;
+	width: 110px;
+}
+#gallery-nav div.gallery a {
+	text-decoration: none;
+	color: #fff;
+}
+#gallery-nav div.gallery img {
+	
+}
+#gallery-nav div.gallery .gallery-item {
+	background-color: #fff;
+	border-radius: 0;
+	overflow: hidden;
+	border: 1px solid #666;
+}
+
+#gallery-nav div.gallery .gallery-item img {
+margin: 5px;
+}
+
+#gallery-nav div.gallery .header {
+	text-align: left;
+	background: #675554; /* Old browsers */
+
+
+}
+#gallery-nav div.gallery .header {
+	text-decoration: none;
+	color: #fff;
+	font-size: 13px;
+	line-height: 18px;
+	font-family: Raleway, Verdana, Segoe, sans-serif;
+/* 	padding-left: 5px; */
+	height: 3em;
+	text-align: center;
+}
+#gallery {
+	width: 600px;
+	margin-top: 0px;
+	position: absolute;
+	z-index: 50;
+	top: 50px;
+}
+#gallery #carousel {
+	width: 510px;
+	height: 70px;
+	float: left;
+	margin-bottom: 20px;
+	background-color: #efefef;
+	padding: 5px;
+}
+#gallery #carousel ul li a img {
+	height: 60px;
+	width: 60px;
+	margin: 5px;
+}
+#gallery #image {
+	max-width: 600px;
+	min-height: 480px;
+	margin: 0;
+}
+
+#gallery #image img {
+	margin: 0 auto;
+	display: block;
+	-moz-box-shadow: 2px 2px 5px #d2d2d2;
+	-webkit-box-shadow: 2px 2px 5px #d2d2d2;
+	box-shadow: 2px 2px 5px #d2d2d2;
+	border-radius: 1px;
+	max-height: 480px;
+}
+
+#gallery #caption {
+	position: relative;
+	max-width: 600px;
+	font-size: 12px;
+	color: #333;
+	height: 100px;
+	bottom: 0;
+	margin: 0 auto;
+	display: none;
+	margin-top: -120px;
+	padding: 10px;
+	font-family: Helvetica, Verdana, Segoe, sans-serif;
+	background-color: rgba(255, 255, 255, 0.8);
+}
+
+#gallery #caption title {
+	display: none;
+}
+#gallery #caption h2 {
+	color: #333;
+	font-family:raleway, helvetica, verdana, sans-serif;
+}
+
+#carousel-container {
+	margin: 15px auto;
+	width: 510px;
+}
+#carousel-container {
+	background-color: #efefef;
+}
+.carousel-nav {
+	height: 80px;
+	width: 40px;
+	background: #e0e0e0;
+	display: block;
+	text-align: center;
+	float: left;
+}
+.carousel-nav a {
+	text-decoration: none;
+	color: #666;
+	line-height: 80px;	
+	font-family: arial;
+	
+}
+#gallery #carousel a {
+	z-index: 101;
+}
+
+#carousel img {
+	opacity: .85;
+}
+
+#carousel img:hover {
+	opacity: 1;
+}
+
+#gallery-show-wrapper {
+	position: relative;
+	z-index: 150;
+	max-width: 650px;
+	height: 20px;
+}
+
+#gallery-show {
+	border-radius: 20px;
+	background: #675554;
+	color: #FFF;
+	font-family: Raleway, Verdana, Segoe, sans-serif;
+	font-size: 14px;
+	text-align: center;
+	display: block;
+	margin: -1.5em auto;
+	height: 3em;
+	line-height: 20px;
+	white-space: nowrap;
+	width: 250px;
+	text-decoration: none;
+	font-weight: 700;
+
+	
+}
+
+</style>
+<!--[if gte IE 9]>
+  <style type="text/css">
+    .header {
+       filter: none;
+    }
+  </style>
+<![endif]-->
+<script type="text/javascript">
+jQuery(document).ready(function($) {
+	$.ajax({
+		method: 'get',
+		url: 'galleryV1.xml',
+		dataType: 'xml',
+		success: function(xml) {
+			var gallery_nav = $('#gallery-nav');
+			var galleries = 0;
+			$(xml).find('category').each(function() {
+				galleries++;
+				var title = $(this).attr('title');
+				var xml_path = $(this).find('xmlPath').attr('src');
+				var thumbnail = $(this).find('thumbnail').attr('src');
+				var image = $(this).find('image').attr('src');
+				
+				var link = $('<a />', {
+					href: 'javascript:void(0);',
+					click: function() {
+						if($('#gallery-nav').hasClass('first-click')) {
+							$('#gallery-nav').slideToggle('slow');
+						}
+						$('#gallery-nav').addClass('first-click');
+						$.ajax({
+							method: 'get',
+							url: xml_path,
+							dataType: 'xml',
+							success: function(gallery_xml) {
+								
+								$('#gallery #carousel').empty().append(
+									$('<ul />')
+								);
+								var items = 0;
+								$(gallery_xml).find('item').each(function() {
+									items++;
+									var description_node = $(this).find('description').text();
+									var description = $(description_node);
+									var thumbnail = $(this).find('thumbnail').attr('src');
+									var image = $(this).find('image').attr('src');
+									var title = $(description[0]).text();
+
+									var active_class = (items == 1?'active':'');
+									$('<img />').attr('src',image); // Preload images
+									var gallery_link = $('<a />',{
+															'class': 'carousel-link',
+															href: image,
+															'data-title': title,
+															'data-description': description_node
+														}).append(
+															$('<img />',{
+																src: thumbnail,
+																title: title
+															})
+														);
+									
+									$('#gallery #carousel ul').append(
+										$('<li />',{
+											'class':active_class
+										}).append(
+											gallery_link
+										)
+									);
+									if(items == 1) {
+										console.log(gallery_link);
+										gallery_link.trigger('click');
+									}
+	
+								});
+								$('#gallery #carousel').jCarouselLite({btnNext: '#next',btnPrev: '#prev', visible: 6 }).show();
+							}
+						})
+					}
+				});
+				if(galleries == 1) {
+					$('<img />').attr('src',image);
+					link.click();
+				}
+				gallery_nav.append(
+					$('<div />',{
+						'class':'gallery'
+					}).append(
+						link.append(
+							$('<div class="gallery-item" />').append(
+								$('<div />', {
+									'class': 'header',
+									html: title
+								})
+							).append(
+								$('<img />',{
+									src: thumbnail,
+									alt: title
+								})
+							)
+						)
+					)
+				);
+				
+			});
+			gallery_nav.append('<div style="clear: both;"></div>');
+		}
+	});
+	$('#caption').live('mouseenter', function() {
+		$(this).parent().find('img').trigger('mouseenter');
+	});
+	$('#caption').live('mouseleave', function() {
+		$(this).parent().find('img').trigger('mouseleave');
+	});
+	
+
+	// Slide Gallery Nav open 1 sec after pageload
+	$('#gallery-nav').delay(1000).slideToggle('slow');
+
+	// Toggle Gallery Nav open & close
+	$('#gallery-show').click(function() {
+		$('#gallery-nav').slideToggle('slow');
+	});
+	$('#carousel a.carousel-link').live('click', function(e) {
+		e.preventDefault();
+		var image = $(this).attr('href');
+		var title = $(this).attr('data-title');
+		var description = $(this).attr('data-description').replace(/<title>(.*)<\/title>/g,'');
+		console.log(description);
+		$(this).parent().addClass('active').siblings().removeClass('active');
+		$('#gallery #image img').replaceWith(
+			$('<img />',{
+				src: image
+			}).hover(
+				function () {
+					$('#caption').empty().show().append(
+						$('<h2 />',{
+							html: title
+						}).after(
+							description
+						)
+					).width($('#gallery #image img').width()-20)
+				}, 
+				function () {
+					$('#caption').empty().hide();
+				}
+			)
+		);
+	});
+	$('#gallery-nav .gallery:first').trigger('click');
+	
+});
+</script>
+<body>
+<div id="gallery-container">
+	<div id="gallery-nav"></div>
+	<div id="gallery-show-wrapper">
+	<a href="javascript:void(0);" id="gallery-show">
+		<!-- <img src="gallery-click.png" /> -->
+		Gallery<br/>
+		Click for Kitchen Collection
+	</a>
+	</div>
+	<div id="gallery">
+		<div id="image">
+			<img />
+		</div>
+		<div id="caption"></div>
+		<div id="carousel-container">
+			<span class="carousel-nav">
+				<a href="javascript:void(0);" id="prev">Prev</a>
+			</span>
+			<div id="carousel"></div>
+			<span class="carousel-nav">
+				<a href="javascript:void(0);" id="next">Next</a>
+			</span>
+		</div>
+	</div>
+	<div style="clear: both;"></div>
+</div>
+</body>
+</html>

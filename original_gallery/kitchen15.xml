@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+<kitchen15>
+<items>
+	<item>
+	<image src="asset/kitchen15/kitchen1.jpg" />
+	<thumbnail src="asset/kitchen15/thumbnail1.jpg" />
+<description> 
+<![CDATA[<title>Secret Maple Harvest</title>This Fall inspiration features Maple cabinets with custom color #1737 and President Raised Panel style #M30. The countertop is Granite certified by Kitchen Magic in Autumn Wheat.
+ ]]> 
+</description>
+	</item>			
+<item>
+	<image src="asset/kitchen15/kitchen2.jpg" />
+	<thumbnail src="asset/kitchen15/thumbnail2.jpg" />
+<description> 
+<![CDATA[<title>Secret Maple Harvest</title>This Fall inspiration features Maple cabinets with custom color #1737 and President Raised Panel style #M30. The countertop is Granite certified by Kitchen Magic in Autumn Wheat.
+ ]]> 
+</description>
+	</item>		
+<item>
+	<image src="asset/kitchen15/kitchen3.jpg" />
+	<thumbnail src="asset/kitchen15/thumbnail3.jpg" />
+	<description> 
+<![CDATA[<title>Secret Maple Harvest</title>This Fall inspiration features Maple cabinets with custom color #1737 and President Raised Panel style #M30. The countertop is Granite certified by Kitchen Magic in Autumn Wheat.
+ ]]> 
+</description>
+</item>
+</items>
+</kitchen15>

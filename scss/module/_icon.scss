@@ -1,0 +1,34 @@
+/* 
+ *----------------------------------------------------------------------------------------------------------------------------
+ * MODULE > ICON
+ *----------------------------------------------------------------------------------------------------------------------------
+ */
+
+.km-icon{
+	margin: 0 .2em;
+	@extend .fa;
+}
+
+.km-icon-menu{
+	@extend .fa-bars;
+}
+
+.km-icon-search{
+	@extend .fa-search;
+}
+
+.km-icon-user{
+	@extend .fa-user;
+}
+
+.km-icon-phone{
+	@extend .fa-phone;
+}
+
+.km-icon-bullhorn{
+	@extend .fa-bullhorn
+}
+
+.km-icon-money{
+	@extend .fa-money;
+}

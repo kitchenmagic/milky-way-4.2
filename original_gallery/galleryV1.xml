@@ -1,0 +1,285 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+<GalleryV1>
+  <category title="The Classic Cardovan">
+    <xmlPath src="kitchen1.xml"/>
+    <thumbnail src="http://www.kitchenmagic.com/files/gallery/asset/kitchen1/categoryThumbnail.jpg"/>
+    <background src="asset/kitchen1/background.jpg"/>
+    <description>
+      <![CDATA[Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Praesent euismod nunc id ligula. Vivamus ac justo. Morbi imperdiet. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Pellentesque est eros, viverra quis, pellentesque nec, elementum id, mi.]]>
+    </description>
+  </category>
+  <category title="Breckenridge Light">
+    <xmlPath src="kitchen2.xml"/>
+    <thumbnail src="asset/kitchen2/categoryThumbnail.jpg"/>
+    <background src="asset/kitchen2/background.jpg"/>
+    <description>
+      <![CDATA[Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Praesent euismod nunc id ligula. Vivamus ac justo. Morbi imperdiet. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Pellentesque est eros, viverra quis, pellentesque nec, elementum id, mi.]]>
+    </description>
+  </category>
+  <!--
+  <category title="Classic Cherry Tea">
+    <xmlPath src="kitchen3.xml"/>
+    <thumbnail src="asset/kitchen3/categoryThumbnail.jpg"/>
+    <background src="asset/kitchen3/background.jpg"/>
+    <description>
+      <![CDATA[Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Praesent euismod nunc id ligula. Vivamus ac justo. Morbi imperdiet. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Pellentesque est eros, viverra quis, pellentesque nec, elementum id, mi.]]>
+    </description>
+  </category>
+  <category title="Canterbury Square">
+    <xmlPath src="kitchen4.xml"/>
+    <thumbnail src="asset/kitchen4/categoryThumbnail.jpg"/>
+    <background src="asset/kitchen4/background.jpg"/>
+    <description>
+      <![CDATA[Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Praesent euismod nunc id ligula. Vivamus ac justo. Morbi imperdiet. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Pellentesque est eros, viverra quis, pellentesque nec, elementum id, mi.]]>
+    </description>
+  </category>
+  <category title="The White Walnut Stonebridge">
+    <xmlPath src="kitchen5.xml"/>
+    <thumbnail src="asset/kitchen5/categoryThumbnail.jpg"/>
+    <background src="asset/kitchen5/background.jpg"/>
+    <description>
+      <![CDATA[Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Praesent euismod nunc id ligula. Vivamus ac justo. Morbi imperdiet. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Pellentesque est eros, viverra quis, pellentesque nec, elementum id, mi.]]>
+    </description>
+  </category>
+  <category title="Maple Milan">
+    <xmlPath src="kitchen6.xml"/>
+    <thumbnail src="asset/kitchen6/categoryThumbnail.jpg"/>
+    <background src="asset/kitchen6/background.jpg"/>
+    <description>
+      <![CDATA[Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Praesent euismod nunc id ligula. Vivamus ac justo. Morbi imperdiet. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Pellentesque est eros, viverra quis, pellentesque nec, elementum id, mi.]]>
+    </description>
+  </category>
+  <category title="Black Cherry Island">
+    <xmlPath src="kitchen7.xml"/>
+    <thumbnail src="asset/kitchen7/categoryThumbnail.jpg"/>
+    <background src="asset/kitchen7/background.jpg"/>
+    <description>
+      <![CDATA[Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Praesent euismod nunc id ligula. Vivamus ac justo. Morbi imperdiet. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Pellentesque est eros, viverra quis, pellentesque nec, elementum id, mi.]]>
+    </description>
+  </category>
+  <category title="The Cherry Sable Capri">
+    <xmlPath src="kitchen8.xml"/>
+    <thumbnail src="asset/kitchen8/categoryThumbnail.jpg"/>
+    <background src="asset/kitchen8/background.jpg"/>
+    <description>
+      <![CDATA[Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Praesent euismod nunc id ligula. Vivamus ac justo. Morbi imperdiet. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Pellentesque est eros, viverra quis, pellentesque nec, elementum id, mi.]]>
+    </description>
+  </category>
+  <category title="Cherry Uba Tuba">
+    <xmlPath src="kitchen9.xml"/>
+    <thumbnail src="asset/kitchen9/categoryThumbnail.jpg"/>
+    <background src="asset/kitchen9/thumbnail1.jpg"/>
+    <description>
+      <![CDATA[Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Praesent euismod nunc id ligula. Vivamus ac justo. Morbi imperdiet. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Pellentesque est eros, viverra quis, pellentesque nec, elementum id, mi.]]>
+    </description>
+  </category>
+  <category title="Maples of Winter Island">
+    <xmlPath src="kitchen10.xml"/>
+    <thumbnail src="asset/kitchen10/categoryThumbnail.jpg"/>
+    <background src="asset/kitchen10/background.jpg"/>
+    <description>
+      <![CDATA[Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Praesent euismod nunc id ligula. Vivamus ac justo. Morbi imperdiet. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Pellentesque est eros, viverra quis, pellentesque nec, elementum id, mi.]]>
+    </description>
+  </category>
+  <category title="Cordovan Cherry Greens">
+    <xmlPath src="kitchen11.xml"/>
+    <thumbnail src="asset/kitchen11/categoryThumbnail.jpg"/>
+    <background src="asset/kitchen11/background.jpg"/>
+    <description>
+      <![CDATA[Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Praesent euismod nunc id ligula. Vivamus ac justo. Morbi imperdiet. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Pellentesque est eros, viverra quis, pellentesque nec, elementum id, mi.]]>
+    </description>
+  </category>
+  <category title="Prestigious Dunewood Square">
+    <xmlPath src="kitchen12.xml"/>
+    <thumbnail src="asset/kitchen12/categoryThumbnail.jpg"/>
+    <background src="asset/kitchen12/background.jpg"/>
+    <description>
+      <![CDATA[Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Praesent euismod nunc id ligula. Vivamus ac justo. Morbi imperdiet. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Pellentesque est eros, viverra quis, pellentesque nec, elementum id, mi.]]>
+    </description>
+  </category>
+  <category title="The Maple White Galaxy">
+    <xmlPath src="kitchen13.xml"/>
+    <thumbnail src="asset/kitchen13/categoryThumbnail.jpg"/>
+    <background src="asset/kitchen13/background.jpg"/>
+    <description>
+      <![CDATA[Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Praesent euismod nunc id ligula. Vivamus ac justo. Morbi imperdiet. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Pellentesque est eros, viverra quis, pellentesque nec, elementum id, mi.]]>
+    </description>
+  </category>
+  <category title="Warm Winter in Stonebridge">
+    <xmlPath src="kitchen14.xml"/>
+    <thumbnail src="asset/kitchen14/categoryThumbnail.jpg"/>
+    <background src="asset/kitchen14/background.jpg"/>
+    <description>
+      <![CDATA[Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Praesent euismod nunc id ligula. Vivamus ac justo. Morbi imperdiet. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Pellentesque est eros, viverra quis, pellentesque nec, elementum id, mi.]]>
+    </description>
+  </category>
+  <category title="Secret Maple Harvest">
+    <xmlPath src="kitchen15.xml"/>
+    <thumbnail src="asset/kitchen15/categoryThumbnail.jpg"/>
+    <background src="asset/kitchen15/background.jpg"/>
+    <description>
+      <![CDATA[Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Praesent euismod nunc id ligula. Vivamus ac justo. Morbi imperdiet. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Pellentesque est eros, viverra quis, pellentesque nec, elementum id, mi.]]>
+    </description>
+  </category>
+  <category title="Lancaster Raised Cherry">
+    <xmlPath src="kitchen16.xml"/>
+    <thumbnail src="asset/kitchen16/categoryThumbnail.jpg"/>
+    <background src="asset/kitchen16/background.jpg"/>
+    <description>
+      <![CDATA[Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Praesent euismod nunc id ligula. Vivamus ac justo. Morbi imperdiet. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Pellentesque est eros, viverra quis, pellentesque nec, elementum id, mi.]]>
+    </description>
+  </category>
+  <category title="Maple Harvest Gold">
+    <xmlPath src="kitchen17.xml"/>
+    <thumbnail src="asset/kitchen17/categoryThumbnail.jpg"/>
+    <background src="asset/kitchen17/background.jpg"/>
+    <description>
+      <![CDATA[Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Praesent euismod nunc id ligula. Vivamus ac justo. Morbi imperdiet. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Pellentesque est eros, viverra quis, pellentesque nec, elementum id, mi.]]>
+    </description>
+  </category>
+  <category title="Hazlenut Mountain Mist">
+    <xmlPath src="kitchen18.xml"/>
+    <thumbnail src="asset/kitchen18/categoryThumbnail.jpg"/>
+    <background src="asset/kitchen18/background.jpg"/>
+    <description>
+      <![CDATA[Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Praesent euismod nunc id ligula. Vivamus ac justo. Morbi imperdiet. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Pellentesque est eros, viverra quis, pellentesque nec, elementum id, mi.]]>
+    </description>
+  </category>
+  <category title="White Walnut Island in Cordovan">
+    <xmlPath src="kitchen19.xml"/>
+    <thumbnail src="asset/kitchen19/categoryThumbnail.jpg"/>
+    <background src="asset/kitchen19/background.jpg"/>
+    <description>
+      <![CDATA[Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Praesent euismod nunc id ligula. Vivamus ac justo. Morbi imperdiet. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Pellentesque est eros, viverra quis, pellentesque nec, elementum id, mi.]]>
+    </description>
+  </category>
+  <category title="The Cordovan Crown">
+    <xmlPath src="kitchen20.xml"/>
+    <thumbnail src="asset/kitchen20/categoryThumbnail.jpg"/>
+    <background src="asset/kitchen20/background.jpg"/>
+    <description>
+      <![CDATA[Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Praesent euismod nunc id ligula. Vivamus ac justo. Morbi imperdiet. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Pellentesque est eros, viverra quis, pellentesque nec, elementum id, mi.]]>
+    </description>
+  </category>
+  <category title="Maple, Pewter and Pepper">
+    <xmlPath src="kitchen21.xml"/>
+    <thumbnail src="asset/kitchen21/categoryThumbnail.jpg"/>
+    <background src="asset/kitchen21/background.jpg"/>
+    <description>
+      <![CDATA[Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Praesent euismod nunc id ligula. Vivamus ac justo. Morbi imperdiet. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Pellentesque est eros, viverra quis, pellentesque nec, elementum id, mi.]]>
+    </description>
+  </category>
+  <category title="The Euro">
+    <xmlPath src="kitchen22.xml"/>
+    <thumbnail src="asset/kitchen22/categoryThumbnail.jpg"/>
+    <background src="asset/kitchen22/background.jpg"/>
+    <description>
+      <![CDATA[Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Praesent euismod nunc id ligula. Vivamus ac justo. Morbi imperdiet. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Pellentesque est eros, viverra quis, pellentesque nec, elementum id, mi.]]>
+    </description>
+  </category>
+  <category title="Custom Glass and Green">
+    <xmlPath src="kitchen23.xml"/>
+    <thumbnail src="asset/kitchen23/categoryThumbnail.jpg"/>
+    <background src="asset/kitchen23/background.jpg"/>
+    <description>
+      <![CDATA[Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Praesent euismod nunc id ligula. Vivamus ac justo. Morbi imperdiet. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Pellentesque est eros, viverra quis, pellentesque nec, elementum id, mi.]]>
+    </description>
+  </category>
+  <category title="Hard Maple Island">
+    <xmlPath src="kitchen24.xml"/>
+    <thumbnail src="asset/kitchen24/categoryThumbnail.jpg"/>
+    <background src="asset/kitchen24/background.jpg"/>
+    <description>
+      <![CDATA[Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Praesent euismod nunc id ligula. Vivamus ac justo. Morbi imperdiet. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Pellentesque est eros, viverra quis, pellentesque nec, elementum id, mi.]]>
+    </description>
+  </category>
+  <category title="Maple Caramel Espresso">
+    <xmlPath src="kitchen25.xml"/>
+    <thumbnail src="asset/kitchen25/categoryThumbnail.jpg"/>
+    <background src="asset/kitchen25/background.jpg"/>
+    <description>
+      <![CDATA[Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Praesent euismod nunc id ligula. Vivamus ac justo. Morbi imperdiet. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Pellentesque est eros, viverra quis, pellentesque nec, elementum id, mi.]]>
+    </description>
+  </category>
+  <category title="The Prestige Cathedral">
+    <xmlPath src="kitchen26.xml"/>
+    <thumbnail src="asset/kitchen26/categoryThumbnail.jpg"/>
+    <background src="asset/kitchen26/background.jpg"/>
+    <description>
+      <![CDATA[Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Praesent euismod nunc id ligula. Vivamus ac justo. Morbi imperdiet. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Pellentesque est eros, viverra quis, pellentesque nec, elementum id, mi.]]>
+    </description>
+  </category>
+  <category title="Crowned Cordovan Cherry">
+    <xmlPath src="kitchen27.xml"/>
+    <thumbnail src="asset/kitchen27/categoryThumbnail.jpg"/>
+    <background src="asset/kitchen27/background.jpg"/>
+    <description>
+      <![CDATA[Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Praesent euismod nunc id ligula. Vivamus ac justo. Morbi imperdiet. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Pellentesque est eros, viverra quis, pellentesque nec, elementum id, mi.]]>
+    </description>
+  </category>
+  <category title="The Frosty White Edinborough">
+    <xmlPath src="kitchen28.xml"/>
+    <thumbnail src="asset/kitchen28/categoryThumbnail.jpg"/>
+    <background src="asset/kitchen28/background.jpg"/>
+    <description>
+      <![CDATA[Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Praesent euismod nunc id ligula. Vivamus ac justo. Morbi imperdiet. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Pellentesque est eros, viverra quis, pellentesque nec, elementum id, mi.]]>
+    </description>
+  </category>
+  <category title="Maple Espresso Gold">
+    <xmlPath src="kitchen29.xml"/>
+    <thumbnail src="asset/kitchen29/categoryThumbnail.jpg"/>
+    <background src="asset/kitchen29/background.jpg"/>
+    <description>
+      <![CDATA[Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Praesent euismod nunc id ligula. Vivamus ac justo. Morbi imperdiet. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Pellentesque est eros, viverra quis, pellentesque nec, elementum id, mi.]]>
+    </description>
+  </category>
+  <category title="The Antique Statesman">
+    <xmlPath src="kitchen30.xml"/>
+    <thumbnail src="asset/kitchen30/categoryThumbnail.jpg"/>
+    <background src="asset/kitchen30/background.jpg"/>
+    <description>
+      <![CDATA[Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Praesent euismod nunc id ligula. Vivamus ac justo. Morbi imperdiet. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Pellentesque est eros, viverra quis, pellentesque nec, elementum id, mi.]]>
+    </description>
+  </category>
+  <category title="Maple Harvest Glaze">
+    <xmlPath src="kitchen31.xml"/>
+    <thumbnail src="asset/kitchen31/categoryThumbnail.jpg"/>
+    <background src="asset/kitchen31/background.jpg"/>
+    <description>
+      <![CDATA[Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Praesent euismod nunc id ligula. Vivamus ac justo. Morbi imperdiet. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Pellentesque est eros, viverra quis, pellentesque nec, elementum id, mi.]]>
+    </description>
+  </category>
+   <category title="Ginger Cherry Gold">
+    <xmlPath src="kitchen32.xml"/>
+    <thumbnail src="asset/kitchen32/categoryThumbnail.jpg"/>
+    <background src="asset/kitchen32/background.jpg"/>
+    <description>
+      <![CDATA[Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Praesent euismod nunc id ligula. Vivamus ac justo. Morbi imperdiet. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Pellentesque est eros, viverra quis, pellentesque nec, elementum id, mi.]]>
+    </description>
+  </category>
+  <category title="Vintage Hazlenut Canterbury">
+    <xmlPath src="kitchen33.xml"/>
+    <thumbnail src="asset/kitchen33/categoryThumbnail.jpg"/>
+    <background src="asset/kitchen33/background.jpg"/>
+    <description>
+      <![CDATA[Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Praesent euismod nunc id ligula. Vivamus ac justo. Morbi imperdiet. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Pellentesque est eros, viverra quis, pellentesque nec, elementum id, mi.]]>
+    </description>
+  </category>
+  <category title="Black and White Chocolate">
+    <xmlPath src="kitchen34.xml"/>
+    <thumbnail src="asset/kitchen34/categoryThumbnail.jpg"/>
+    <background src="asset/kitchen34/background.jpg"/>
+    <description>
+      <![CDATA[Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Praesent euismod nunc id ligula. Vivamus ac justo. Morbi imperdiet. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Pellentesque est eros, viverra quis, pellentesque nec, elementum id, mi.]]>
+    </description>
+  </category>
+  <category title="Black Cherry Canterbury">
+    <xmlPath src="kitchen35.xml"/>
+    <thumbnail src="asset/kitchen35/categoryThumbnail.jpg"/>
+    <background src="asset/kitchen35/background.jpg"/>
+    <description>
+      <![CDATA[Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Praesent euismod nunc id ligula. Vivamus ac justo. Morbi imperdiet. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Pellentesque est eros, viverra quis, pellentesque nec, elementum id, mi.]]>
+    </description>
+  </category>
+  -->
+</GalleryV1>

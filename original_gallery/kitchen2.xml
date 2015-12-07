@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?> 
+<kitchen2>
+<items>
+<item>
+  <image src="asset/kitchen2/kitchen1.jpg" /> 
+  <thumbnail src="asset/kitchen2/thumbnail1.jpg" /> 
+<description>
+<![CDATA[ <title>Breckenridge Light</title>This refaced kitchen features Antique White cabinets with a Walnut Glaze. This popular color is highlighted by the simple, yet elegant Breckenridge Square door style. Countertop supplied by customer. 
+  ]]> 
+  </description>
+  </item>
+<item>
+  <image src="asset/kitchen2/kitchen2.jpg" /> 
+  <thumbnail src="asset/kitchen2/thumbnail2.jpg" /> 
+<description>
+<![CDATA[ <title>Breckenridge Light</title>This refaced kitchen features Antique White cabinets with a Walnut Glaze. This popular color is highlighted by the simple, yet elegant Breckenridge Square door style. Countertop supplied by customer.
+  ]]> 
+  </description>
+  </item>
+<item>
+  <image src="asset/kitchen2/kitchen3.jpg" /> 
+  <thumbnail src="asset/kitchen2/thumbnail3.jpg" /> 
+<description>
+<![CDATA[ <title>Breckenridge Light</title>This refaced kitchen features Antique White cabinets with a Walnut Glaze. This popular color is highlighted by the simple, yet elegant Breckenridge Square door style. Countertop supplied by customer.
+  ]]> 
+  </description>
+  </item>
+<item>
+  <image src="asset/kitchen2/kitchen4.jpg" /> 
+  <thumbnail src="asset/kitchen2/thumbnail4.jpg" /> 
+<description>
+<![CDATA[ <title>Breckenridge Light</title>This refaced kitchen features Antique White cabinets with a Walnut Glaze. This popular color is highlighted by the simple, yet elegant Breckenridge Square door style. Countertop supplied by customer.
+  ]]> 
+  </description>
+  </item>
+<item>
+  <image src="asset/kitchen2/kitchen5.jpg" /> 
+  <thumbnail src="asset/kitchen2/thumbnail5.jpg" /> 
+<description>
+<![CDATA[ <title>Breckenridge Light</title>This refaced kitchen features Antique White cabinets with a Walnut Glaze. This popular color is highlighted by the simple, yet elegant Breckenridge Square door style. Countertop supplied by customer. 
+  ]]> 
+  </description>
+  </item>
+<item>
+  <image src="asset/kitchen2/kitchen6.jpg" /> 
+  <thumbnail src="asset/kitchen2/thumbnail6.jpg" /> 
+<description>
+<![CDATA[ <title>Breckenridge Light</title>This refaced kitchen features Antique White cabinets with a Walnut Glaze. This popular color is highlighted by the simple, yet elegant Breckenridge Square door style. Countertop supplied by customer. 
+  ]]> 
+  </description>
+  </item>
+  </items>
+  </kitchen2>

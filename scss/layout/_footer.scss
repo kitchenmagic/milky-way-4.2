@@ -1,0 +1,56 @@
+/* 
+ *----------------------------------------------------------------------------------------------------------------------------
+ * FOOTER
+ *----------------------------------------------------------------------------------------------------------------------------
+ */
+ .km-footer {
+ 	background-color: $footer-color; 
+ 	color: lighten($tertiary-color, 15); 	
+
+ 	& > .row-fluid-wrapper {
+
+ 		.widget-span{
+			padding: 0 $global-spacing-sides;
+
+			.widget-span {
+				margin-bottom: $global-spacing-bottom;
+			}	
+		}
+ 	}
+	
+
+	.km-navigation{
+		margin-bottom: $global-spacing-bottom;
+	}
+
+ 	blockquote{
+ 		color: darken($tertiary-color, 35);
+ 		cite{
+ 			color: darken($tertiary-color, 15);
+ 		}
+ 	}
+
+ 	.km-service-area {
+ 		color: darken($tertiary-color, 35);
+ 		border: solid 1px darken($tertiary-color, 8);
+ 		border-right: none;
+ 		border-left: none;
+ 		padding: .8em;
+ 		text-align: center;
+ 	}
+	
+	.km-legal{
+		text-align: center;
+		background-color: $secondary-color;
+	}
+	
+	
+	.km-button,
+	.hs-button,
+	.button,
+	button{ 
+		margin: 0;
+	}
+
+ }
+

@@ -1,0 +1,71 @@
+/* 
+ *----------------------------------------------------------------------------------------------------------------------------
+ * UTILITY
+ *----------------------------------------------------------------------------------------------------------------------------
+ */
+
+
+ /* 
+ *----------------------------------------------------------
+ * Mixins
+ *----------------------------------------------------------
+ */
+@mixin raised($background-color:null){
+	@if $background-color == null{
+		@include box-shadow( 0 1px 1px rgba(0,0,0, .5), inset 0 -1px 1px rgba(0,0,0, 0.2) );	
+	}@else{
+		@include box-shadow(0 0px 3px rgba(0,0,0,.6), inset 0 -1px 2px darken($background-color, 20 ), inset 0 0px 1px lighten($background-color, 50 ));
+		//border-bottom: solid 1px darken($background-color, 5);
+	}
+	//@include box-shadow(0 0px 1px rgba(0,0,0, .6), inset 0 -1px 1px rgba(0, 0, 0, 0.5), inset 0 0px 1px rgba(255,255,255, .5));
+}
+
+@mixin inset-text($background-color){
+	@include text-shadow( 0 -1px darken($background-color, 40));
+}
+
+@mixin highlighted-item() {
+	// color: color(off-white);
+
+	@media #{$medium-up} {
+		border-bottom: 4px white solid;
+		@include transition(border .3s ease-in-out);
+	}
+}
+
+@mixin center(){
+	margin-left:auto!important;
+	margin-right:auto!important;
+}
+
+
+
+//Icon
+@mixin icon($icon-name, $position){
+	font-family: $font-awesome;
+	content: unquote("\"\\#{$icon-name}\"");
+	
+	@if $position !=  null{
+		position: absolute;
+	}
+
+	@if $position == right {
+		padding-left: $icon-padding;	
+	} @else if $position == left {
+		padding-right: $icon-padding;
+	} @else {
+		padding: 0;
+	}
+}
+
+
+
+ /* 
+ *----------------------------------------------------------
+ * Functions
+ *----------------------------------------------------------
+ */
+@function col($cols){
+	@return 100%/$cols;
+}
+

@@ -1,0 +1,102 @@
+/* 
+ *----------------------------------------------------------------------------------------------------------------------------
+ * MODULE > BUTTON
+ *----------------------------------------------------------------------------------------------------------------------------
+ */
+
+.km-button,
+.hs-button,
+.button,
+button,
+input[type="button"]{
+	@include button($button-sml, $primary-color, true);
+}
+
+.widget-type-google-search{
+	.hs-button{
+
+	}
+}
+
+
+@each $name, $value in $colors {
+	.km-btn-#{$name},
+	.km-child-btn-#{$name} button,
+	.km-child-btn-#{$name} .button,
+	.km-child-btn-#{$name} .hs-button,
+	.km-child-btn-#{$name} .km-button,
+	.km-child-btn-#{$name} input[type='button'],
+	.km-child-btn-#{$name} input[type='submit'] {
+		@extend .km-button;
+		background-color: $value;
+		border-color: darken($value, 7);
+	}
+
+	.km-btn-#{$name}:hover,
+	.km-child-btn-#{$name} button:hover,
+	.km-child-btn-#{$name} .button:hover,
+	.km-child-btn-#{$name} .hs-button:hover,
+	.km-child-btn-#{$name} .km-button:hover,
+	.km-child-btn-#{$name} input[type='button']:hover,
+	.km-child-btn-#{$name} input[type='submit']:hover {
+		background-color: darken($value, 7);
+		border-color: darken($value, 14);
+	}
+}
+
+.km-button-full,
+.km-button-full .button,
+.km-button-full .km-button,
+.km-button-full .hs-button,
+.km-button-full-width,
+.km-button-full-width .button,
+.km-button-full-width .km-button,
+.km-button-full-width .hs-button {
+	width: 100%;
+}
+
+
+/* 
+ *--------------------------------------------
+ * MODULE > BUTTON > Social
+ *--------------------------------------------
+ */
+
+.km-icons-social{
+
+	& > a {
+		@include border-radius($button-radius);
+		color: white;
+		float: left;
+		font-size: $input-font-size;
+		margin: 0 5% 0 0;
+		padding: $button-sml 0;
+		text-align: center;
+		width: 16%;
+
+		&:last-of-type {
+			margin:0;
+		}
+	}
+
+	.fa-facebook {
+		background-color:#3b5998;
+	}
+
+	.fa-pinterest-p,
+	.fa-pinterest {
+		background-color:#c92228;
+	}
+
+	.fa-rss {
+		background-color: #f90;
+	}
+
+	.fa-google-plus {
+		background-color:#d34836;
+	}
+	
+	.fa-youtube {
+		background-color:#cd201f;
+	}
+}
