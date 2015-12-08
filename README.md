@@ -1,6 +1,23 @@
 # Kitchen Magic: Milky Way (4.0)
 [Staging Site](http://staging.kitchenmagic.com)
 
+# Get Started
+[Foundation Documentation](http://foundation.zurb.com/sites/docs/v/5.5.3/sass.html)
+1. Make sure the following are installed:
+    - Git ([Windows](https://git-scm.com/download/win)|[Mac](https://git-scm.com/download/mac)|[Linux](https://git-scm.com/download/linux) )
+    - Node
+    - Ruby
+2. open terminal (ie. Git BASH)
+3. CD into directory where you want to keep git repository
+4. Clone Repo from GitHub: `git clone https://github.com/kitchenmagic/milky-way-4.2.git`
+5. Install Foundation `gem install foundation` 
+6. Get dependencies `bundle install`
+7. Update Foundation `foundation update`
+
+
+
+
+
 ---
 # STYLE
 ### SCSS / SASS

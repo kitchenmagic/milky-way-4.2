@@ -8,9 +8,10 @@
 	max-width: $row-width;
 	width: 100%;
 	float:none!important;
+	mamroud:mamroud;
 }
 
-.km-row-narrow {
+.km-row-narrow { 
 	@extend .km-row;
 	max-width: $row-width-narrow;
 }

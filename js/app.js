@@ -15,7 +15,7 @@ $(document).foundation({
 });
 
 (function(){
-	var leftPanel,
+	var 	leftPanel,
 		rightPanel;
 
 	$( 'body > div' ).wrap( '<div class="off-canvas-wrap" data-offcanvas></div>' );
@@ -24,16 +24,37 @@ $(document).foundation({
 	leftPanel = $('#km-panel-left').detach();
 	rightPanel = $('#km-panel-right').detach();
 
-	console.log("Left Panel: " + leftPanel);
-
 	leftPanel.prependTo('.off-canvas-wrap > .inner-wrap');
 	rightPanel.prependTo('.off-canvas-wrap > .inner-wrap');
 
-	console.log('Just appended');
+	//iOS Fix
+	$('.left-off-canvas-toggle').on('click',function(){
+		$('.left-off-canvas-wrap').foundation('offcanvas', 'show', 'move-right');
+      });
+	$('.right-off-canvas-toggle').on('click',function(){
+		$('.right-off-canvas-wrap').foundation('offcanvas', 'show', 'move-left');
+      });
+
 })();
 
-console.log('About to reflow');
 $(document).foundation('offcanvas', 'reflow');
+
+//Smooth Scroll
+$(function() {
+  $('a[href*=#]:not([href=#])').click(function() {
+    if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
+      var target = $(this.hash);
+      target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
+      if (target.length) {
+        $('html,body').animate({
+          scrollTop: target.offset().top
+        }, 1000);
+        return false;
+      }
+    }
+  });
+});
+
 
 /*
 $(document)
