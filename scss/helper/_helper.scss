@@ -3,54 +3,6 @@
  * LAYOUT
  *-------------------------------------------------------
  */
-.km-row {
-	@include center;
-	max-width: $row-width;
-	width: 100%;
-	float:none!important;
-	mamroud:mamroud;
-}
-
-.km-row-narrow { 
-	@extend .km-row;
-	max-width: $row-width-narrow;
-}
-
-.km-row-wide {
-	@extend .km-row;
-	max-width: $row-width-wide;
-}
-
-.km-row-full {
-	@extend .km-row;
-	max-width: 100%!important;
-}
-
-.km-row,
-.km-row-wide,
-.km-row-full {
-	.row-fluid{
-		@extend .km-row;
-	}
-}
-
-
-.km-wrapper{
-	@extend .km-row;
-}
-
-.km-wrapper-inner{
-	@extend .km-row;
-}
-
-.km-width-full{
-	width:$width-full;
-	max-width:$width-full;
-}
-
-
-
-
 .align-center {
 	float: none!important;
 	display:block!important;
@@ -71,6 +23,12 @@
 }
 
 
+.km-margin-none{
+	margin: 0!important;
+}
+.km-padding-none{
+	padding:0!important;
+}
 
 
 
@@ -106,30 +64,11 @@
     display: none;
 }
 
-
-.km-button-inline {
-	position: relative;
-	display: inline-block;
-	width: 100%;
-	float: right;
-
-	.hs-input{
-		position: absolute;
-		top: 0;
-		left: 0;
-		padding-right: 40%;
-		right: 0;
-	}
-
-	.hs-button,
-	.km-button {
-		position: absolute;
-		margin: 0;
-		top: 0;
-		right: 0;
-		border-top-left-radius: 1px;
-		border-bottom-left-radius: 1px;
-	}
+form.km-form-frameless,
+.km-form-frameless form{
+	background:none!important;
+	border:none!important;
+	padding: 0 !important;
 }
 
 
@@ -146,6 +85,19 @@
 		background-color: $value;
 	}
 }
+
+@each $name, $value in $grayscale{
+	.km-bg-#{$name}{
+		background-color: $value;
+	}
+	.km-text-#{$name}{
+		color: $value;
+	}
+}
+//one off, find other solution later
+.km-bg-info-accent{
+		background-color: lighten($info-color,20);
+	}
 
 /*
  *-------------------------------------------------------

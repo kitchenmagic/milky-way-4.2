@@ -53,7 +53,12 @@ For use in HTML
 - Helper
     + Form
         * Hide Title: `.km-form-hide-title`
+        * Raw form: `km-form-frameless`
+    + Layout
+        * No Padding: `-km-padding-none`
+        * No Margin: `-km-margin-none`
 - Layout
+    + Full Width Row: add to template body css `.km-page-full-width` then add `.km-row` to rows you dont want full width
 - Module
 
 <br>

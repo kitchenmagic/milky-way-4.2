@@ -123,6 +123,7 @@ $black       : #000000;
 $primary-color: 	#88441D;
 $secondary-color: 	#85695b;
 $tertiary-color:	lighten($secondary-color, 20);
+$accent-color:		lighten($tertiary-color, 20);
 $alert-color: 		#EA002A;
 $success-color: 	#799A05;
 $warning-color: 	#F98E2B;
@@ -462,10 +463,10 @@ $button-margin-bottom: rem-calc(20);
 $button-font-family: $body-font-family;
 $button-font-color: $white;
 $button-font-color-alt: $oil;
-$button-font-tny: rem-calc(13);//10
-$button-font-sml: rem-calc(16);//13
-$button-font-med: rem-calc(20);//16
-$button-font-lrg: rem-calc(24);//20
+$button-font-tny: rem-calc(10);//10
+$button-font-sml: rem-calc(13);//13
+$button-font-med: rem-calc(16);//16
+$button-font-lrg: rem-calc(20);//20
 $button-font-weight: $font-weight-normal;
 $button-font-align: center;
 
@@ -1509,10 +1510,33 @@ $colors:(
 	secondary:	$secondary-color,
 	tertiary:	$tertiary-color,
 	alert:		$alert-color,
+	accent:		$accent-color,
 	success:	$success-color,
 	warning:	$warning-color,
 	info:		$info-color
 );
+
+$grayscale:(
+	color-white:		$white,
+	color-ghost:		$ghost,
+	color-snow:		$snow,
+	color-vapor:		$vapor,
+	color-white-smoke:$white-smoke,
+	color-silver:		$silver,
+	color-smoke:		$smoke,
+	color-gainsboro:	$gainsboro,
+	color-iron:		$iron,
+	color-base:		$base,
+	color-aluminum:	$aluminum,
+	color-jumbo:		$jumbo,
+	color-monsoon:	$monsoon,
+	color-steel:		$steel,
+	color-charcoal:	$charcoal,
+	color-tuatara:	$tuatara,
+	color-oil:		$oil,
+	color-jet:		$jet,
+	color-black:		$black
+	);
 
 //Typography
 @font-face{
