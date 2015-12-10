@@ -6,6 +6,13 @@
  .km-footer {
  	background-color: $footer-color;
  	color: lighten($tertiary-color, 15); 	
+	
+	padding-top:$global-spacing;
+
+	@media #{$large-up}{
+		padding-top: 0;
+	}
+
 
  	& > .row-fluid-wrapper {
 

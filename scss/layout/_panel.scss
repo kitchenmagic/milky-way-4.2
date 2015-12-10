@@ -1,0 +1,16 @@
+.off-canvas-list{
+	ol,ul{
+	list-style:none;	
+	}
+}
+
+#km-panel-left{
+	
+}
+
+#km-panel-right{
+
+	& > .widget-span{
+		padding: 0 .7em;
+	}
+}

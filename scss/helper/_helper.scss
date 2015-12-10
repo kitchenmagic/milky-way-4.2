@@ -3,6 +3,15 @@
  * LAYOUT
  *-------------------------------------------------------
  */
+
+/*Size*/
+.km-full{
+	width: 100%;
+	max-width: 100%;
+}
+
+
+
 .align-center {
 	float: none!important;
 	display:block!important;
@@ -71,7 +80,31 @@ form.km-form-frameless,
 	padding: 0 !important;
 }
 
+.km-button-inline{
+	padding: 0;
+	display:none;
+	@media #{$large-up}{
+		display: block;
+	}
+	
+	.hs-form-field{
+		input{
+			height: 3.5em;
+		}
+	}
 
+	.hs_submit{
+		position:absolute;
+		top:0;
+		right:0;
+
+		.hs-button,
+		button,
+		input{
+			@include border-radius( 0 $global-radius $global-radius  0);
+		}
+	}
+}
 
 /*
  *-------------------------------------------------------

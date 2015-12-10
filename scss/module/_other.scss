@@ -203,6 +203,7 @@
 
 //Google Search Box
 .gsc-search-box  {
+	
 	* {
 		box-sizing: initial;
 		line-height: normal;
@@ -258,13 +259,6 @@
 }
 
 
-//Google Search Ads Removal
-div[class*="gsc-adBlock"]{
-	display:none!important;
-}
-
-
-
 
 /*
  *-------------------------------------------------------
@@ -290,6 +284,8 @@ div[class*="gsc-adBlock"]{
  */
 
  .hs-cta-wrapper{
+ 	margin-top: $global-spacing * 2;
+ 	margin-bottom: $global-spacing;
  	text-align: center;
  	display: block;
  }
