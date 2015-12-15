@@ -30,6 +30,11 @@
 
 }
 
+.km-top-bar-only .top-bar{
+	@media #{$large-up}{
+		margin-bottom:3em;
+	}
+}
 
 .km-logo-wrapper {
 	display: inline-block;

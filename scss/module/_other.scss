@@ -61,36 +61,7 @@
 		}
 	}
 
-	
 
-
-/*
- 	ul.hs_cos_flex-direction-nav {
-		height:100%;
-
-		li {
-			position:absolute;
-			width: 6em;
-			height:100%;
-			top:0;
-			list-style:none;
-
-			&:first-of-type{ left:0; }
-			&:last-of-type{ right:0; }
-
-			a {
-				height:100%;
-				width:100%;
-				padding: 0 .5em;
-				color:white;
-				background-color:rgba(0,0,0,.3);
-				text-align:center;
-				display: block;
-				line-height: 3000%;
-			}
-		}
-	}
-*/
 	ol.hs_cos_flex-control-paging {
 		position: absolute;
 		bottom: 10px;
@@ -202,6 +173,7 @@
 
 
 //Google Search Box
+
 .gsc-search-box  {
 	
 	* {
@@ -366,3 +338,34 @@
 	}
 }
 
+
+
+ /*
+ *-------------------------------------------------------
+ * AWARDS
+ *-------------------------------------------------------
+ */
+
+.km-awards{
+	text-align: center;
+
+	img{
+		max-height: 7em;
+		width:auto;
+	}
+}
+
+// BACK TO TOP
+//////////////////////////////
+.km-to-top{
+	@include button($button-med, $warning-color, true);
+	background: none;
+	color: $warning-color;
+	border: solid 1px $warning-color;
+
+	&:hover,
+	&:focus{
+		background: none;
+		color: darken($warning-color,10);
+	}
+}

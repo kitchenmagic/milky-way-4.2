@@ -106,6 +106,12 @@ form.km-form-frameless,
 	}
 }
 
+
+.km-form-center [data-hs-cos-type="form"]{
+	display:block;
+	@include align-center;
+}
+
 /*
  *-------------------------------------------------------
  * COLOR

@@ -4,15 +4,15 @@
  *----------------------------------------------------------------------------------------------------------------------------
  */
  .km-footer {
- 	background-color: $footer-color;
- 	color: lighten($tertiary-color, 15); 	
-	
-	padding-top:$global-spacing;
+ 	color: lighten($tertiary-color, 15);
 
-	@media #{$large-up}{
-		padding-top: 0;
+	.km-footer-wrapper-inner{
+		background-color: $footer-color;
+		padding: $global-spacing 0 0!important;
+		@media #{$large-up}{
+			padding-top: 0;
+		}
 	}
-
 
  	& > .row-fluid-wrapper {
 
@@ -26,9 +26,7 @@
  	}
 	
 
-	.km-navigation{
-		margin-bottom: $global-spacing-bottom;
-	}
+	.km-navigation{}
 
  	blockquote{
  		color: darken($tertiary-color, 35);

@@ -6,6 +6,7 @@
 .body-container {
 	margin: $global-spacing auto 0;
 	max-width: $row-width;
+	min-height: 600px;
 
 	.widget-span {
 		margin-bottom: $global-spacing;

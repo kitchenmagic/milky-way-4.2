@@ -15,17 +15,22 @@ $(document).foundation({
 });
 
 (function(){
+
+  //Left and Right Panels
 	var 	leftPanel,
-		rightPanel;
+		    rightPanel;
 
 	$( 'body > div' ).wrap( '<div class="off-canvas-wrap" data-offcanvas></div>' );
-	$( 'body > div > div' ).addClass( 'inner-wrap' );
+	$( 'body > div > div' ).addClass( 'inner-wrap' ).append('<a class="exit-off-canvas"></a>');
 
 	leftPanel = $('#km-panel-left').detach();
 	rightPanel = $('#km-panel-right').detach();
 
 	leftPanel.prependTo('.off-canvas-wrap > .inner-wrap');
 	rightPanel.prependTo('.off-canvas-wrap > .inner-wrap');
+
+
+
 
 	//iOS Fix
 	$('.left-off-canvas-toggle').on('click',function(){
@@ -35,6 +40,10 @@ $(document).foundation({
 		$('.right-off-canvas-wrap').foundation('offcanvas', 'show', 'move-left');
       });
 
+  //
+
+
+
 })();
 
 $(document).foundation('offcanvas', 'reflow');
@@ -42,9 +51,12 @@ $(document).foundation('offcanvas', 'reflow');
 //Smooth Scroll
 $(function() {
   $('a[href*=#]:not([href=#])').click(function() {
+
     if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
+
       var target = $(this.hash);
       target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
+      
       if (target.length) {
         $('html,body').animate({
           scrollTop: target.offset().top

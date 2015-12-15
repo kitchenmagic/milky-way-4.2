@@ -53,13 +53,29 @@ For use in HTML
 - Helper
     + Form
         * Hide Title: `.km-form-hide-title`
+        * Hide Labels: `.km-form-hide-label`
         * Raw form: `km-form-frameless`
+        * Center: `.km-form-center`
     + Layout
-        * No Padding: `-km-padding-none`
-        * No Margin: `-km-margin-none`
+        * No Padding: `.km-padding-none`
+        * No Margin: `.km-margin-none`
+    + Header
+        * Extra Padding under Top Bar `.km-top-bar-only`
 - Layout
     + Full Width Row: add to template body css `.km-page-full-width` then add `.km-row` to rows you dont want full width
 - Module
+- Icon
+    + Position (adds base styling and padding on appropriate side)
+        * Center: `.km-icon`
+        * Left: `.km-icon-left`
+        * Right: `km-icon-right`
+    + Name `.km-icon-[icon name]`
+        * Phone: `phone`
+        * Arrow: `arrow-[up | right | down | left ]`
+        * Bullhorn: `bullhorn`
+        * Money: `money`
+        * 
+    + 
 
 <br>
 

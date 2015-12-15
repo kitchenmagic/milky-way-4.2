@@ -4,20 +4,38 @@
  *----------------------------------------------------------------------------------------------------------------------------
  */
 
+
+// GLOBAL FORMS
+////////////////////////////
+
+//FORM
+[data-hs-cos-type="form"]{
+	max-width: 500px;
+}
+
+// FORM TITLE
+.form-title{
+	text-align:center;
+}
+
+// BUTTONS
 #{text-inputs(all, 'input')} {
 	@include border-radius($input-border-radius);
 }
 
+input[type="submit"] {
+	@include button($button-med, $info-color, true);
+}
 
-//All Forms (.page is used to overpower hubspot selectors)
+//INPUTS
+input{
+	background-color:$white;
+}
+
+//BODY FORMS
 .body-container-wrapper{
 
-	
-	form,
-	.hs-form,
-	.form-title {
-		max-width: 500px;
-	}
+
 		
 
 	.hs-form,
@@ -28,19 +46,17 @@
 	    border-top: none;
 	    @include border-radius( 0 0 $global-radius $global-radius);
 
-		button,
+		button:not(.pika-prev):not(.pika-next),
 		.button,
 		.hs-button,
 		.km-button{
 			width:100%;
 		}
 
-		input[type="submit"] {
-			@include button($button-med, $info-color, true);
-		}
+		
 		
 		fieldset{
-
+			//INPUTS
 			.hs-input,
 			.input{
 			
@@ -78,7 +94,12 @@
 			    margin-left: 10px;
 			}
 			
-		
+			select{
+				word-break: break-word;
+				height:auto;
+			}
+
+			//LARGE SCREEN INPUTS
 			@media #{$medium-up}{
 				input[type=checkbox],
 				input[type="radio"]{
@@ -91,39 +112,22 @@
 				}
 			}
 
-
-			&.form-columns-1{
-				.input {
+			//FIELDS
+			.hs-form-field{
+				&:last-of-type .input {
 					margin-right: 0;
 				}
 
-
-			 	input.hs-input,
-			 	select {
+				.hs-input{
 					width: 100%;
 				}
 			}
-		
-			&.form-columns-2 {
-				
-				.hs-form-field{
-					.input{
-						margin-right:0;	
-					}				
 
-					@media #{$medium-up}{
-						&:first-of-type .input{
-							margin-right: 8px;
-						}
-					}
-
-					.hs-input{
-						width: 100%;	
-					}
+			&.form-columns-3{
+				@media #{$medium-up}{
+					
 				}
 			}
-
-
 
 			ul {
 			    list-style: none;
@@ -149,16 +153,20 @@
 	
 	.form-title{
 		@extend h3;
-		color: $white;
-		background-color: $secondary-color;
-		border: solid 1px darken($secondary-color, 10);
-		border-bottom: none;
+		@include background-border($info-color, true);
 		@include border-radius($global-radius $global-radius 0 0);
+		border-bottom: none;
+		color: $white;
+		line-height: 1;
 		margin-bottom: 0;
 		padding: .5em;
-		line-height: 1;
 		text-align: center;
 	}
+}
+
+//VALIDATION
+ul.hs-error-msgs{
+	display:none!important;
 }
 
 

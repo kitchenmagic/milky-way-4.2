@@ -9,7 +9,7 @@
 .button,
 button,
 input[type="button"]{
-	@include button($button-med, $primary-color, true);
+	@include button($button-med, $secondary-color, true);
 }
 
 .widget-type-google-search{
@@ -33,15 +33,23 @@ input[type="button"]{
 	}
 
 	.km-btn-#{$name}:hover,
+	.km-btn-#{$name}:focus,
 	.km-child-btn-#{$name} button:hover,
+	.km-child-btn-#{$name} button:focus,
 	.km-child-btn-#{$name} .button:hover,
+	.km-child-btn-#{$name} .button:focus,
 	.km-child-btn-#{$name} .hs-button:hover,
+	.km-child-btn-#{$name} .hs-button:focus,
 	.km-child-btn-#{$name} .km-button:hover,
+	.km-child-btn-#{$name} .km-button:focus,
 	.km-child-btn-#{$name} input[type='button']:hover,
-	.km-child-btn-#{$name} input[type='submit']:hover {
+	.km-child-btn-#{$name} input[type='button']:focus,
+	.km-child-btn-#{$name} input[type='submit']:hover,
+	.km-child-btn-#{$name} input[type='submit']:focus {
 		background-color: darken($value, 7);
 		border-color: darken($value, 14);
 	}
+
 }
 
 .km-button-full,

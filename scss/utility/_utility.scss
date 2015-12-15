@@ -38,7 +38,12 @@
 	margin-right:auto!important;
 }
 
-
+@mixin background-border($color, $has-border){
+	background-color: $color;
+	@if $has-border {
+		border: solid 1px darken($color, 10);
+	}
+}
 
 //Icon
 @mixin icon($icon-name, $position){

@@ -9,6 +9,15 @@
 	padding: 0 .5em;
 }
 
+.km-icon-right{
+	@extend .km-icon;
+	padding: 0 0 0 .8em;
+}
+.km-icon-left{
+	@extend .km-icon;
+	padding: 0 .8em 0 0;
+}
+
 .km-icon-menu{
 	@extend .fa-bars;
 }
@@ -33,6 +42,18 @@
 	@extend .fa-money;
 }
 
+.km-icon-arrow-up{
+	@extend .fa-chevron-up;
+}
+
 .km-icon-arrow-right{
 	@extend .fa-angle-right;
+}
+
+.km-icon-calendar{
+	@extend .fa-calendar;
+}
+
+.km-icon-mail{
+	@extend .fa-envelope;
 }
