@@ -232,7 +232,7 @@ $header-bottom-margin: 1rem;
 $header-text-rendering: optimizeLegibility;
 
 // We use these to control header font sizes
-$h1-font-size: rem-calc(50);//44
+$h1-font-size: rem-calc(44);//44
 $h2-font-size: rem-calc(37);
 $h3-font-size: rem-calc(27);
 $h4-font-size: rem-calc(23);
@@ -1550,7 +1550,7 @@ $placeholder-font-color: $base;
 $header-color: $secondary-color;
 $footer-color: $tertiary-color;
 
-
+$navigation-height: 50px;
 
 
 // Used to set textures

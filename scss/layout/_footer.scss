@@ -5,6 +5,10 @@
  */
  .km-footer {
  	color: lighten($tertiary-color, 15);
+	
+	a{
+		color: lighten($tertiary-color, 30)
+	}
 
 	.km-footer-wrapper-inner{
 		background-color: $footer-color;

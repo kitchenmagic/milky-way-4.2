@@ -173,9 +173,12 @@
 
 
 //Google Search Box
+.top-bar .gsc-control-cse{
+	padding:0;
+}
 
 .gsc-search-box  {
-	
+
 	* {
 		box-sizing: initial;
 		line-height: normal;

@@ -24,7 +24,7 @@
 
 				var album = $(this),
 					album_id = album.attr('id'),
-					album_title = album.attr('title');
+					album_title = album.attr('title'),
 					album_description = $(this).find('description').text(),
 					thumbnail = '';
 					
@@ -91,6 +91,7 @@
 								arrows:true
 							});
 
+							//Fixes first popup not displaying first image
 							$('#km-album-slider').slick('slickPrev');
 
 							$('.km-album-description').append(album_description);

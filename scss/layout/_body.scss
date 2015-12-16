@@ -6,20 +6,23 @@
 .body-container {
 	margin: $global-spacing auto 0;
 	max-width: $row-width;
+	padding: 0 16px;
 	min-height: 600px;
-
+	
 	.widget-span {
 		margin-bottom: $global-spacing;
 	}
 
 	& > .row-fluid-wrapper > .row-fluid > .widget-span {
-		padding: 0 16px;
+		//padding: 0 16px;
 	}
 }
 
-.km-page-full-width{
+.km-page-full-width,
+.km-page-full {
 	.body-container{
 		max-width: 100%;
+		padding: 0;
 	}
 }
 

@@ -105,6 +105,12 @@ For use in HTML
 
 <br/>
 
+#RULES
+##Images
+Featured Images 
+    Description:Main image used within content displayed towards the top of the content area
+    Size: 
+
 ---
 # GitHub
 ## Git Commands

@@ -64,16 +64,6 @@ input{
 					border: solid 1px $alert-color;
 					margin: 0 0 1rem 0;
 				}
-				
-				input {
-					height: auto;
-					padding: $button-sml 1em;
-				}
-
-				select{
-					@include border-radius($global-radius);
-					background-color:$white;
-				}
 			}
 		
 
@@ -92,11 +82,6 @@ input{
 			input[type="checkbox"] + span,
 			input[type="radio"] + span {
 			    margin-left: 10px;
-			}
-			
-			select{
-				word-break: break-word;
-				height:auto;
 			}
 
 			//LARGE SCREEN INPUTS
