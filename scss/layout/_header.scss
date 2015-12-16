@@ -10,6 +10,7 @@
 	background-image: $grain;
 	@include raised;
 	height: 60px;
+	max-height: 90px;
 	z-index: 1000;
 	overflow: visible;
 
@@ -55,6 +56,10 @@
 		@media #{$large-up} {
 			top: -15px;
 			padding: 15px 25px 20px;
+
+			img{
+				max-width: 177px;
+			}
 		}
 
 		img{
@@ -70,23 +75,23 @@
 
 	.km-contact-header{
 		color: $white;
-		font-size: 1.7em;
+		font-size: 1.4em;
 		line-height: 1.2;
 		padding: 0 0 .4rem;
 	}
 
 	.km-contact-sub-header{
-		color: lighten($tertiary-color, .2 );
+		color: lighten($secondary-color, 30 );
 		font-size: 1em;
 		line-height: 1;
 		padding:0;
-		min-height: 1em;
+		max-height: 1em;
 	}
 }
 
 
 
-
+//BANNER IMAGE
 .km-banner{
 	max-height: 140px;
 	width: 100%;
@@ -95,7 +100,7 @@
 	background-size:cover;
 	
 	@media #{$medium-up}{
-		max-height: 240px;	
+		max-height: 180px;	
 	}
 	
 	img,
@@ -107,3 +112,4 @@
 		width: 100%!important;
 	}
 }
+

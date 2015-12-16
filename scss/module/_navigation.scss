@@ -5,9 +5,9 @@
  */
 
 %list-item-active {
-	background-color: $list-background-color;
+	//background-color: $list-background-color;
 	//border-bottom: $list-border-style;
-	padding: 0.4rem 2rem 0.4rem 1rem;
+	padding: 0.4rem 2rem;
 	max-width: 100%;
 	max-height: 100%;
 	margin-bottom: 1px;
@@ -98,7 +98,7 @@
 		
 		//.hs-menu-flow-horizontal.flyouts > ul li
 		li {
-			float: left;
+			display:inline-block;
 			
 			ul.hs-menu-children-wrapper {
 				width: 100%;
@@ -157,7 +157,7 @@
 	
 	//Top Level List
 	& > ul {
-		float:left;
+		display:inline-block;
 	}
 	
 	//With Flyouts
@@ -222,9 +222,10 @@
 
 .km-nav-primary.km-navigation {
 	width: 100%;
+	background: $grain $secondary-color;
 	background-color: $secondary-color;
 	background-image: $grain;
-	height: 60px;
+	height: $navigation-height;
 	@include raised($secondary-color);
 
 	& > span{
@@ -238,16 +239,16 @@
 		@include align-center;
 
 		ul {
-			
 
 			& > li {
 				width: 20%!important;
 				position: static;
+				float:left;
 
 				a{
 					padding: 0 1em;
 					margin: 0;
-					line-height: 60px;
+					line-height: $navigation-height;
 					background: none;
 					color: $white;
 					text-align: center;
@@ -284,7 +285,7 @@
 				overflow: hidden;
 				padding: 0 calc(50% - 570px)!important;
 				right: 0;
-				top: 60px;
+				top: $navigation-height;
 				visibility: hidden;
 
 				& > li {
@@ -293,8 +294,8 @@
 					& > a {
 						transition: color 0.4s ease-in-out;
 						font-size: 1em;
-						line-height: 60px;
-						max-height: 60px;
+						line-height: $navigation-height;
+						max-height: $navigation-height;
 						visibility: visible;
 						color:white;
 						position: relative;

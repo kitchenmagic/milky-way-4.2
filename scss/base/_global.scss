@@ -66,3 +66,14 @@ blockquote{
 	}
 }
 
+input,
+select,
+textarea {
+	padding: .5rem 1em;
+	height: auto;
+}
+
+select{
+	@include border-radius($input-border-radius);
+	word-break: break-word;
+}
