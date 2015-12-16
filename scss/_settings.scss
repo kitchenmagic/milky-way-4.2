@@ -1550,8 +1550,18 @@ $placeholder-font-color: $base;
 $header-color: $secondary-color;
 $footer-color: $tertiary-color;
 
+
+//MODULES
+////////////////////////
+
+//TOP BAR
+$top-bar-height: 80px;
+
+//NAVIGATION
 $navigation-height: 50px;
 
+//MOBILE PANELS
+$panel-header-background: $secondary-color;
 
 // Used to set textures
 $grain: url('http://kitchenmagic.wpengine.com/wp-content/themes/kitchen-magic/images/textures/inflicted.png');

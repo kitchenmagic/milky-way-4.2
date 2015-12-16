@@ -1,11 +1,26 @@
+
+
 .off-canvas-list{
+
 	ol,ul{
 	list-style:none;	
 	}
 }
 
-#km-panel-left{
+#km-panel-left,
+#km-panel-right {
 	
+
+	.km-panel-header {
+		background: $panel-header-background;		
+		max-height: 50px;
+
+		h1, h2, h3, h4, h5, h6{
+			padding:0;
+			line-height: 50px;
+			color: white;
+		}
+	}
 }
 
 #km-panel-right{

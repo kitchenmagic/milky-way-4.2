@@ -84,10 +84,15 @@ form.km-form-frameless,
 .km-button-inline{
 	padding: 0;
 	display:none;
+
 	@media #{$large-up}{
 		display: block;
 	}
 	
+	& > div {
+		position:relative;
+	}
+
 	.hs-form-field{
 		input{
 			height: 3.5em;

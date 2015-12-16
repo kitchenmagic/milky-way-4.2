@@ -9,8 +9,8 @@
 .top-bar {
 	background-image: $grain;
 	@include raised;
-	height: 60px;
-	max-height: 90px;
+	height: $navigation-height;
+	max-height: $top-bar-height;
 	z-index: 1000;
 	overflow: visible;
 
@@ -22,8 +22,8 @@
 
 	.km-toggle{
 		color: $white;
-		line-height: 60px;
-
+		line-height: $navigation-height;
+		padding: 0 .7rem;
 		&:last-of-type{
 			text-align: right;
 		}
@@ -48,17 +48,17 @@
 		left: 0;
 		margin-left: 0;
 		margin-right: 0;
-		padding: 10px 25px 10px;
+		padding: 5px 10px;
 		position: absolute;
 		top: 0;
 		width: auto;
 
 		@media #{$large-up} {
 			top: -15px;
-			padding: 15px 25px 20px;
+			padding: 10px 20px;
 
 			img{
-				max-width: 177px;
+				max-width: 160px;
 			}
 		}
 
@@ -113,3 +113,7 @@
 	}
 }
 
+.km-page-header{
+	background: url(http://kitchenmagic.wpengine.com/wp-content/uploads/2012/12/transparent-square-tiles-1.png) lighten($accent-color, 10) ;
+	padding: $global-spacing $global-spacing-sides;
+}
