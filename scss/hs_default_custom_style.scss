@@ -41,10 +41,12 @@
 
 
 //@import "font-awesome-sprockets";
-@import 'font-awesome';
-
+@import 'font-awesome',
+		'motion-ui';
+		
    //Kitchen Magic
 @import "utility/utility",
+		"utility/motion",
 		"compass/css3",
 		"base/global",
 		"base/overrides",

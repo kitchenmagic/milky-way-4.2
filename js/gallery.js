@@ -24,7 +24,7 @@
 
 				var album = $(this),
 					album_id = album.attr('id'),
-					album_title = album.attr('title');
+					album_title = album.attr('title'),
 					album_description = $(this).find('description').text(),
 					thumbnail = '';
 					
@@ -121,7 +121,9 @@ $(document).ready(function(){
 		$('#km-album-popup').foundation('reveal', 'open');
 	});
 
-
+	$('.hs-dateinput .hs-input').click(function(event){
+		event.preventDefault();
+	});
 });
 
 

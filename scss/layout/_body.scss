@@ -13,7 +13,7 @@
 	}
 
 	& > .row-fluid-wrapper > .row-fluid > .widget-span {
-		padding: 0 16px;
+		padding: 0 $global-spacing;
 	}
 }
 
@@ -61,6 +61,7 @@
 
 .km-wrapper-inner{
 	@extend .km-row;
+	padding: 0 $global-spacing;
 }
 
 .km-width-full{
