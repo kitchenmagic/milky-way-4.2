@@ -5,12 +5,8 @@
  */
 
 
- /* 
- *----------------------------------------------------------------------------------------------------------------------------
- * MODULE > OTHER > IMAGE SLIDER
- *----------------------------------------------------------------------------------------------------------------------------
- */
-
+// SLIDER
+////////////////////////////////////
  .widget-type-image_slider {
 	@extend .orbit-container;
 
@@ -18,16 +14,29 @@
 			margin: 0;
 	}
 	
-	.hs_cos_flex-viewport{
-		
-		max-height: 475px;
-	
+	.hs_cos_flex-viewport{	
 
 		img {
 			width:100%;
 		}
 	}
+	
+	ul.hs_cos_flex-slides{
+		max-height:440px;
+		overflow: hidden;
 
+		li{
+			width: 100%;
+			float: left;
+			position: relative;
+			display: block;
+			z-index: 1;
+		}
+	}
+
+	.hs_cos_flex-slider .hs_cos_flex-slides img {
+		height: auto;
+	}
 
 	.hs_cos_flex-direction-nav li{
 
@@ -235,12 +244,8 @@
 
 
 
-/*
- *-------------------------------------------------------
- * PANELS
- *-------------------------------------------------------
- */
-
+// MOBILE PANEL
+//////////////////////////////
  #km-panel-left,
  #km-panel-right{
  	.hs-menu-wrapper > ul{
@@ -252,11 +257,8 @@
 
 
 
-/*
- *-------------------------------------------------------
- * CTA
- *-------------------------------------------------------
- */
+// CTA
+//////////////////////////////
 
  .hs-cta-wrapper{
  	margin-top: $global-spacing * 2;
@@ -266,12 +268,8 @@
  }
 
 
-/*
- *-------------------------------------------------------
- * GALLERY
- *-------------------------------------------------------
- */
-
+// GALLERY
+//////////////////////////////
 #km-album-list{
 	.km-album-title {
 		background-color: rgba(255,255,255,.7);
@@ -343,12 +341,8 @@
 
 
 
- /*
- *-------------------------------------------------------
- * AWARDS
- *-------------------------------------------------------
- */
-
+// AWARDS
+//////////////////////////////
 .km-awards{
 	text-align: center;
 
@@ -358,14 +352,18 @@
 	}
 }
 
+
+
 // BACK TO TOP
 //////////////////////////////
-.km-to-top{
+a.km-to-top{
 	@include button($button-med, $warning-color, true);
 	background: none;
-	color: $warning-color;
 	border: solid 1px $warning-color;
-
+	margin-top: 15px;
+	
+	color: $warning-color;
+	
 	&:hover,
 	&:focus{
 		background: none;

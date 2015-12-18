@@ -76,7 +76,6 @@
 								arrows: true,
 								variableWidth: false,
 								adaptiveHeight: false,
-								lazyLoad: 'progressive',
 								slide: '.image',
 								initialSlide:1
 							});

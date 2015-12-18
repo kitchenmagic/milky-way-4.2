@@ -118,6 +118,9 @@ function formCustomDatePicker(){
 			} 
 		}
 
+		
+		
+
 		return weekenddate; 
 	 
 	}
@@ -129,68 +132,16 @@ function formCustomDatePicker(){
 	}).attr('readonly','readonly');
 }
 
-
-
-
-//VALIDATES CHECK BOXES AND RADIO BUTTONS
 function formValidationFix(){
-	
-	var count = 0;
-	
-	$('.hs-form-field').on('change DOMNodeInserted', function(){
-		
-		$(this).find('.hs-error-msgs').each(function(){
-			count++;
-			console.log('Found: ' + count);
-		});
-	});
 
-	
- /*
-var errorClass = "error";
+	$('.hs-form-field').on('DOMNodeInserted', function(){
+		var checkboxField = $(".hs-error-msgs").prev().find('.hs-form-booleancheckbox').context();
+		//var	checkbox = checkboxField.first('input');
 
-	$('.hs-form-field').on('change', function(){
-
-		var checkboxField = $(this).prev().find('.hs-form-booleancheckbox');
-		var checkbox = checkboxField.find('input');
-
-			if( checkbox.prop('checked') ){
-				console.log("true");
-				checkboxField.find('label').removeClass('error');
-			}else{
-				console.log("FALSE");
-				checkboxField.find('label').addClass('error');
-			}
 			//checkboxField.find('label').addClass('error');
-			//checkbox.on('change', errorControl(checkbox));
-	});
+			console.log('checkbox 1: ' + checkboxField);
+			//console.log('checkbox 22:' + checkbox.value);
+	})
 
-
-check if field has an error message and alert the user
-When the user corrects the problem, remove the alert
-
-
-When dom element is changed, check if error message still exists
-  if yes: alert the user
-  if no: remove the alert
-
-
-	$('.hs-error-msgs').prev().find('.input-lists input').each(function(item){
-		item.on('change', errorControl(item) );
-		console.log('each');
-	});
-
-	function errorControl(obj){
-		console.log('Error Control: ' + obj);
-
-		if(obj.prop('checked')){
-			console.log('TRUE');
-			obj.closest('label').removeClass(errorClass);
-		}else{
-			console.log('FALSE');
-			obj.closest('label').addClass(errorClass);
-		}
-	};
-	*/
 
 }

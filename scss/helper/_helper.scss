@@ -40,6 +40,19 @@
 	padding:0!important;
 }
 
+@media #{$medium-down}{
+	.km-mobile-padding-horizontal{
+		padding-right: $global-spacing-sm;
+		padding-left: $global-spacing-sm;
+	}
+
+	.km-mobile-padding-vertical{
+		padding-top: $global-spacing-sm;
+		padding-bottom: $global-spacing-sm;
+	}	
+}
+
+
 
 
 
