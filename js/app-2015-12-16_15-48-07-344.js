@@ -68,16 +68,35 @@ $(function() {
 
 
 
-$(document).ajaxComplete(function(){
-	formCustomDatePicker();
-	formValidationFix();	
-});
 
 
+$(window).load(function(){
+/*
+	function DisableSpecificDates(date) {
 
+		var m = date.getMonth();
+		var d = date.getDate();
+		var y = date.getFullYear();
 
-function formCustomDatePicker(){
+		// First convert the date in to the mm-dd-yyyy format 
+		// Take note that we will increment the month count by 1 
+		var currentdate = (m + 1) + '-' + d + '-' + y ;
 
+		// We will now check if the date belongs to disableddates array 
+		for (var i = 0; i < disableddates.length; i++) {
+			
+			// Now check if the current date is in disabled dates array. 
+			if ($.inArray(currentdate, disableddates) != -1 ) {
+				return [false];
+			
+			}else{
+				return [true];
+			}
+
+		}
+
+	}
+*/
 	var disableddates = [
 				"12-24-2015",
 				"12-25-2015", 
@@ -118,6 +137,9 @@ function formCustomDatePicker(){
 			} 
 		}
 
+		
+		
+
 		return weekenddate; 
 	 
 	}
@@ -127,70 +149,17 @@ function formCustomDatePicker(){
 		beforeShowDay: DisableSpecificDates,
 		constrainInput: true
 	}).attr('readonly','readonly');
-}
 
+});
 
+$(document).ajaxComplete(function(){
+	$('form').on('DOMNodeInsertion', function(){
+		console.log('Clicked');
+		$(".hs-error-msgs").prev().find('input[type="checkbox"]').addClass('error');
+	})
+});
 
-
-//VALIDATES CHECK BOXES AND RADIO BUTTONS
-function formValidationFix(){
-	
-	var count = 0;
-	
-	$('.hs-form-field').on('change DOMNodeInserted', function(){
-		
-		$(this).find('.hs-error-msgs').each(function(){
-			count++;
-			console.log('Found: ' + count);
-		});
-	});
-
-	
- /*
-var errorClass = "error";
-
-	$('.hs-form-field').on('change', function(){
-
-		var checkboxField = $(this).prev().find('.hs-form-booleancheckbox');
-		var checkbox = checkboxField.find('input');
-
-			if( checkbox.prop('checked') ){
-				console.log("true");
-				checkboxField.find('label').removeClass('error');
-			}else{
-				console.log("FALSE");
-				checkboxField.find('label').addClass('error');
-			}
-			//checkboxField.find('label').addClass('error');
-			//checkbox.on('change', errorControl(checkbox));
-	});
-
-
-check if field has an error message and alert the user
-When the user corrects the problem, remove the alert
-
-
-When dom element is changed, check if error message still exists
-  if yes: alert the user
-  if no: remove the alert
-
-
-	$('.hs-error-msgs').prev().find('.input-lists input').each(function(item){
-		item.on('change', errorControl(item) );
-		console.log('each');
-	});
-
-	function errorControl(obj){
-		console.log('Error Control: ' + obj);
-
-		if(obj.prop('checked')){
-			console.log('TRUE');
-			obj.closest('label').removeClass(errorClass);
-		}else{
-			console.log('FALSE');
-			obj.closest('label').addClass(errorClass);
-		}
-	};
-	*/
-
-}
+/*.click(function(){
+	console.log('Form Changed');
+	$(".hs-error-msgs").prev().find('input[type="checkbox"]').addClass('error');
+});*/
