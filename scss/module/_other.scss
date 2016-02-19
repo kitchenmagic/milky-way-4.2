@@ -5,7 +5,7 @@
  */
 
 
-// SLIDER
+// IMAGE SLIDER
 ////////////////////////////////////
  .widget-type-image_slider {
 	@extend .orbit-container;
@@ -112,26 +112,32 @@
 
 
 
-/*Home Page Featured Columns*/
-.km-featured {
-	.km-featured-col {}
-
-	.km-featured-col-1 {}
-	.km-featured-col-2 {}
-	.km-featured-col-3 {}
-
-}
-
+//FEATURED COLUMNS
+////////////////////////////
 .km-featured-item {
 	position:relative;
-	
+	@extend .km-card;
+
+	.km-featured-item-title {
+		color: #FFF;
+		text-align: center;
+		padding-top: .3em;
+		padding-bottom: .2em;
+		position:absolute;
+		width:100%;
+	}
+
 	a:hover {
 		text-decoration: none;
 	}
 
-	.km-featured-item-text {
-		position:absolute;
-		width:100%;
+	.km-featured-item-image {
+		position:relative;
+	}
+
+	.km-featured-item-caption{
+		padding: 1em 1.3em;
+		background-color: $white;
 	}
 }
 
@@ -259,14 +265,21 @@
 
 // CTA
 //////////////////////////////
+.km-content {
 
- .hs-cta-wrapper{
- 	margin-top: $global-spacing * 2;
- 	margin-bottom: $global-spacing;
- 	text-align: center;
- 	display: block;
- }
+	.hs-cta-wrapper{
+		margin-top: $global-spacing * 2;
+		margin-bottom: $global-spacing;
+		text-align: center;
+		display: block;
+	}
 
+}
+
+.cta_button img{
+	display:block;
+	@include align-center;
+}
 
 // GALLERY
 //////////////////////////////

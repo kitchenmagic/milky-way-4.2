@@ -4,6 +4,7 @@
  *----------------------------------------------------------------------------------------------------------------------------
  */
 
+//Placeholders
 %list-item-active {
 	//background-color: $list-background-color;
 	//border-bottom: $list-border-style;
@@ -42,6 +43,19 @@
 	padding-top: 0;
 	padding-bottom: 0;
 }
+
+
+
+%first-level-active{
+	background: $grain lighten($secondary-color, 5 );
+	@include box-shadow(inset 0 -3px $white);
+}
+
+%second-level-active {
+	background: lighten($info-color, 2);
+}
+
+
 
 
 
@@ -220,6 +234,9 @@
 	background: $grain lighten($secondary-color, 5 );
 }
 
+
+
+
 .km-nav-primary.km-navigation {
 	width: 100%;
 	background: $grain $secondary-color;
@@ -259,14 +276,20 @@
 		}
 
 		
-		//First Level
-		& > ul > li > a {
-			@include inset-text($secondary-color);
+		//FIRST LEVEL
+		& > ul > li {
 
-			&:hover,
-			ul:hover + a {
-				background: $grain lighten($secondary-color, 5 );
-				@include box-shadow(inset 0 -3px $white);
+			& > a {
+				@include inset-text($secondary-color);
+
+				&:hover,
+				ul:hover + a {
+					@extend %first-level-active;
+				}
+			}
+			
+			&.active-branch > a {
+				@extend %first-level-active;
 			}
 		}
 		
@@ -302,14 +325,13 @@
 						display: block;
 						background: $info-color;
 
-						/*&:after{
-							@include icon($fa-angle-right, right);
-							    padding: 0 .5rem 0 .7rem;
-    							right: 0;
-						}*/
 						&:hover{
-							background: lighten($info-color, 2);
+							@extend %second-level-active;
 						}
+					}
+
+					&.active-branch > a{
+						@extend %second-level-active;
 					}
 				}
 			}
@@ -449,3 +471,43 @@
 
 
 
+
+//HORIZONTAL NO FLYOUT
+.body-container .hs-menu-flow-horizontal{ 
+	ul {
+		display:inline-block;
+		margin: 0;
+
+		li {
+			display: inline-block;
+			margin: 0;
+			padding: 0;
+			float: left;
+
+			a {
+				display: inline-block;
+				padding: .4em 1em;
+				margin: 0 .5em .5em 0;
+				border: solid 1px #DDD;
+			}
+
+			ul {
+				float: left;
+				overflow: hidden;
+				display:none;
+				
+				li{
+					float:none;
+				}
+			}
+		}
+	}
+
+}
+
+
+.km-navigation-related {
+	li.active-branch{
+		display:none!important;
+	}
+}

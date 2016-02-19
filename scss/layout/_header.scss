@@ -93,6 +93,7 @@
 
 //BANNER IMAGE
 .km-banner{
+	height: 140px;
 	max-height: 140px;
 	width: 100%;
 	overflow: hidden;
@@ -100,7 +101,7 @@
 	background-size:cover;
 	
 	@media #{$medium-up}{
-		max-height: 180px;	
+		max-height: 140px;	
 	}
 	
 	img,
@@ -111,9 +112,16 @@
 		height: 100%;
 		width: 100%!important;
 	}
+
+	h1{
+		padding-top: $global-spacing-sm;
+		padding-bottom: 0;
+	}
 }
 
 .km-page-header{
-	background: url(http://kitchenmagic.wpengine.com/wp-content/uploads/2012/12/transparent-square-tiles-1.png) lighten($accent-color, 5) ;
-	padding: $global-spacing $global-spacing-sides;
+	background: url(http://kitchenmagic.wpengine.com/wp-content/uploads/2012/12/transparent-square-tiles-1.png) #F6F6F6;
+	padding: $global-spacing-sm $global-spacing-sides;
+	border-bottom: solid 1px #E5E5E5;
 }
+

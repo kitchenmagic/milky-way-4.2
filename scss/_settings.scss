@@ -1538,6 +1538,14 @@ $grayscale:(
 	color-black:		$black
 	);
 
+$sides:(
+	top,
+	right,
+	bottom,
+	left
+	);
+
+
 //Typography
 @font-face{
 	font-family: perpetua;
@@ -1629,4 +1637,17 @@ $list-border-style: solid 1px #DDD;
 	margin-left: auto;
 	margin-right: auto;
 }
+
+
+
+//BORDER
+$border-width-thin: 1px;
+$border-width-medium: 3px;
+$border-width-thick: 5px;
+$border-width: $border-width-thin;
+$border-color: $base;
+$border-style: solid;
+
+$border-base: $border-style $border-width $border-color; 
+
 

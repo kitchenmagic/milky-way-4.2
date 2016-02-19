@@ -36,9 +36,21 @@
 .km-margin-none{
 	margin: 0!important;
 }
+
 .km-padding-none{
 	padding:0!important;
 }
+
+@each $side in $sides{
+	.km-margin-#{$side}-none{
+		margin-#{$side}: 0!important;
+	}
+
+	.km-padding-#{$side}-none{
+		padding-#{$side}: 0!important;
+	}
+} 
+
 
 @media #{$medium-down}{
 	.km-mobile-padding-horizontal{
@@ -169,4 +181,41 @@ form.km-form-frameless,
 	transform: scaleX(-1);
 	filter: FlipH;
 	-ms-filter: "FlipH";
+}
+
+
+
+// BORDER
+///////////////////////////////////
+.km-border {
+	border: $border-base;
+}
+
+@each $side in $sides{
+	.km-border-#{$side}{
+		border-#{$side}: $border-base;
+	}
+}
+@each $color-name, $color-value in $colors{
+	.km-border-#{$color-name}{
+		border-color: $color-value;
+	}
+}
+.km-border-thin{
+	border-width: $border-width-thin;
+}
+.km-border-medium{
+	border-width: $border-width-medium;
+}
+.km-border-thick{
+	border-width: $border-width-thick;
+}
+
+
+// CARD
+/////////////////////////////////////
+.km-card{
+	@include box-shadow(0 1px 2px rgb(221, 221, 221));
+	@include box-shadow(0 1px 2px rgba(0,0,0,.3) );
+	background-color: white;
 }
